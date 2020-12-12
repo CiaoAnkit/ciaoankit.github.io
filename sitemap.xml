@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://ciaoankit.github.io/</loc>
+  <lastmod>2020-12-12T05:07:28+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/publications.html</loc>
+  <lastmod>2020-12-12T05:20:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/cv.html</loc>
+  <lastmod>2020-12-12T05:16:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/timeline.html</loc>
+  <lastmod>2020-12-12T05:10:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/analytics.html</loc>
+  <lastmod>2020-12-12T05:18:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/isusaj1.html</loc>
+  <lastmod>2020-12-12T05:10:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/isitalydov.html</loc>
+  <lastmod>2020-12-12T05:10:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/isnltev.html</loc>
+  <lastmod>2020-12-12T05:10:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/news.html</loc>
+  <lastmod>2020-12-12T05:10:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/nojs.html</loc>
+  <lastmod>2020-12-12T05:07:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/index.html</loc>
+  <lastmod>2020-12-12T05:07:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ciaoankit.github.io/404.html</loc>
+  <lastmod>2020-12-12T05:07:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

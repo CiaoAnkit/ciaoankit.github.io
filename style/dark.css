@@ -1,0 +1,110 @@
+html {
+    background: linear-gradient(#001C26D2, #001C26) fixed; 
+    /*
+	#1E2227d2, #1E2227
+    text-rendering: optimizeSpeed;
+    image-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -webkit-image-rendering: optimizeSpeed;
+    */
+}
+
+body{
+}
+
+#container{
+  border-color: #FFFFFF;
+  background-color: #000000;
+}
+
+#content{
+  /*
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: thin;
+  background-color: #000000;
+  border-color: #000000;
+  */
+}
+
+#analytics_table{
+  color: white;
+} 
+
+.page, #footer, .index_info_second_column {
+  color: #FFFFFF;
+}
+
+.publications{
+  background-color: #000000;
+}
+
+.tooltip .tooltiptext, [data-title]:after {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.tooltip .tooltiptext::after{
+  border-color: transparent #FFFFFF transparent transparent;
+}
+
+#citations_chart_area{
+  border-color: #000000;
+}
+
+.tl_direction_r, .tl_direction_l{
+  color: #000000;
+}
+
+#darkmodebtn, #topbtn{
+  background-color: #FFFFFF;
+}
+
+#timeline_div{
+  background-color: #A3A3A3 !important;
+}
+
+i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-github{
+  color: #000000;
+}
+
+#nextbtn, #prevbtn{
+  background-color: #000000;
+}
+
+i.fa-arrow-left, i.fa-arrow-right{
+  color: #FFFFFF;
+}
+
+.fa-github, .fa-github:hover { 
+  background-color: #FFFFFF; 
+}
+
+
+/* Invert these */
+img:not(.round):not(.no_invert_img), object, .leftvcenter, #citations_chart_area{
+    -webkit-filter: invert(100%) hue-rotate(180deg);
+    -moz-filter: invert(100%) hue-rotate(180deg); 
+    -ms-filter: invert(100%) hue-rotate(180deg);
+    -o-filter: invert(100%) hue-rotate(180deg);
+    filter: invert(100%) hue-rotate(180deg);
+}
+
+a.blue{
+  color: #00FF00;
+  background-image: linear-gradient(transparent calc(100% - 10%), #00FF00 1px);
+}
+
+.rate {
+  color : #26a4a4;
+}
+
+/* Track thumb in vertical */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#001C26D2, #001C26);
+}
+
+/* Track thumb in horizontal */
+::-webkit-scrollbar-thumb:horizontal{
+    background: linear-gradient(to right, #001C26D2, #001C26);
+}

@@ -1,0 +1,68 @@
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="description" content="Page redirection"/>
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>Redirecting - Ankit Gangwal</title>
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+        <noscript>
+			<meta http-equiv="refresh" content="0; URL=../nojs.html">
+		</noscript>
+        <link href="../style/style.css" rel="stylesheet">
+        <meta http-equiv="refresh" content="5; URL=../">
+        <meta name="keywords" content="automatic redirection">
+    </head>
+
+    <body>
+        <div class="center_clock">
+            <center>
+                <div class="do-splitflap0">Oops!</div>
+            </center>
+            <br><br>
+            </center>
+                <div class="do-splitflap1">Re-directing!</div>
+            </center>
+        </div>
+
+        <script src="./js/jquery-1.10.1.min.js"></script>
+        <script src="./js/fliptext.js"></script>
+        <script>
+            (function ($) {
+                $(document).ready(function () {
+                    $('.do-splitflap0').splitFlap({
+                        image:          'charactermap/chars.png',
+                        imageSize:      '',
+                        charsMap:       'ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789.,!?#@()+-=',
+                        charWidth:      50,
+                        charHeight:     100,
+                        charSubstitute: ' ',
+                        speed:          2,
+                        speedVariation: 2,
+                        text:           '',
+                        textInit:       'kklo8',
+                        autoplay:       true,
+                        onComplete:     function(){}
+                    });
+                    $('.do-splitflap1').splitFlap({
+                        image:          'charactermap/chars.png',
+                        imageSize:      '',
+                        charsMap:       'ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789.,!?#@()+-=',
+                        charWidth:      50,
+                        charHeight:     100,
+                        charSubstitute: ' ',
+                        speed:          2,
+                        speedVariation: 2,
+                        text:           '',
+                        textInit:       'na@=ena-pejc8',
+                        autoplay:       true,
+                        onComplete:     function(){}
+                    });
+                });
+            })(jQuery);
+        </script>
+		<script src="../js/gtag.js"></script>
+		
+    </body>
+</html>

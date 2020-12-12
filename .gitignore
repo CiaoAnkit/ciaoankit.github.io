@@ -1,0 +1,31 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+# Office Temp Files
+~$*
+
+#files folder
+files/gkey.json
+
+#icons folder
+icons/favicon.zip
+
+#images folder
+images/z_vcard_template.svg
+images/z_email_personal.png
+images/z_qrcode_personal.png
+
+#js folder
+js/blockUI.js
+js/graph_lib.js
+js/progress_bar.js
+js/typewriter.js
+
+#script folder
+scripts/how_to_cronjob.txt
+scripts/analytics_reporting.py
+scripts/citation_reporting.py
+
+#style folder
+style/zSMART_dark.css

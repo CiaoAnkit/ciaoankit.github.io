@@ -1,0 +1,501 @@
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="description" content="My publications"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="HandheldFriendly" content="true">
+		<link href="./style/style.css" rel="stylesheet">
+		<link disabled id="dark-mode-theme" rel="stylesheet" href="./style/dark.css">
+		<link href="./style/fa_all.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<title>Publications - Ankit Gangwal</title>
+		<link rel="shortcut icon" href="./favicon.ico">
+		<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+		<noscript>
+			<meta http-equiv="refresh" content="0; URL=./nojs.html">
+		</noscript>
+		<script src="./js/jquery.js"></script>
+		<script src="./js/notification.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> <!-- "./js/graph_lib.js" -->
+		<script>
+			$(document).ready(function(){
+				setTimeout(function() {
+					jQuery.noticeAdd({
+						text: 'Don\'t forget to cite my papers. ;)',
+						stay: false
+					});
+				}, 5000);
+			});
+		</script>
+		<!--<script src="./js/progress_bar.js" type="text/javascript"></script>-->
+		<script type="text/javascript">
+			var OnIndex = false;
+			var footer_id = 1;
+			var MenuPageName = "publications";
+			var MenuDropDown_full = false;
+			var MenuDropDown_mini = true;
+		</script>
+	</head>
+	<body>
+		<!--<progress value="0" id="progressBar">
+			<div class="progress-container">
+				<span class="progress-bar"></span>
+			</div>
+		</progress>-->
+		<div id="container">
+            <div id="content">
+            	<div id="header_area_id">
+					<!--<script src="./js/header.js"></script>-->
+				</div>
+				<div class="header" id="menu_bar_div">
+					<!--<script src="./js/menu.js"></script>-->
+				</div>
+            <div class="page">	
+				<div class="description">
+					<!--<h2 style="text-align: center;">Conferences, Journals, and Theses</h2>-->
+					<table>
+						<tr>
+							<th>&nbsp;</th>
+						</tr>
+					</table>
+
+					    <!--
+					    <p style="text-align:right; font-size: 60%">
+					    	<span style="text-align:right; font-size: 225%">
+					    		<sub>*</sub>
+					    	</span>Corresponding author
+					    </p>
+
+						-->
+						<center>
+							<div id="citations_chart_area">
+								<div id = "graph_button_prev"><button id="prevbtn"><font color="#fff"><i class="fas fa-arrow-left"></i></font></button></div>
+								<div id="citations_chart"></div>
+								<div id = "graph_button_next"><button id="nextbtn"><font color="#fff"><i class="fas fa-arrow-right"></i></font></button></div>
+								<script type="text/javascript" src="./js/graph_draw_citation.js"></script>
+							</div>
+						</center>
+
+						<br>
+
+						<!--
+						<center>
+					    <h5>
+					    </h5>
+					    </center>
+						-->
+
+						<font size=-1>
+							<p id="pubs_para">
+								[&#x2733; = Corresponding author]
+							</p>
+
+							<br>							
+
+							<p id="pubs_para">
+								[Quick links:&nbsp; &nbsp; 
+								<a class="blue" href="#journals">Journal papers</a>&nbsp;&nbsp;&nbsp;
+								<a class="blue" href="#conferences">Conference & Workshop papers</a>&nbsp;&nbsp;&nbsp;
+								<a class="blue" href="#theses">Theses</a>&nbsp;&nbsp;&nbsp;
+								<a class="blue" href="#submitted">Papers under review</a>]
+							</p>
+
+							<br>
+
+							<p id="pubs_para">
+								[See also my: &nbsp; 
+								<a target="_blank" href="http://dblp.uni-trier.de/pers/hd/g/Gangwal:Ankit" class="blue">DBLP</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://scholar.google.com/citations?user=-6qvBRkAAAAJ" class="blue">Google Scholar</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://academic.microsoft.com/#/search?iq=@Ankit%20Gangwal@&q=Ankit%20Gangwal&filters=&from=0&sort=0" class="blue">MS Academic</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://orcid.org/0000-0002-8065-3700" class="blue">Orcid</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://www.research.unipd.it/simple-search?query=gangwal+ankit#.WXdj7nWGOkC" class="blue">Padua Research</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://www.researchgate.net/profile/Ankit_Gangwal" class="blue">ResearchGate</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://www.researcherid.com/rid/M-3965-2017" class="blue">ResearcherID</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57191591835" class="blue">Scopus</a>&nbsp; &nbsp;
+								<a target="_blank" href="https://www.semanticscholar.org/author/Ankit-Gangwal/23678006" class="blue">Semantic Scholar</a>]
+							</p>
+							
+							<br>
+							
+							<p id="pubs_para">
+								[The ranking:&nbsp;
+								Journals according to <a target="_blank" class="blue" href="https://error.incites.thomsonreuters.com/error/Error?DestApp=IC2JCR&Alias=IC2&Domain=.thomsonreuters.com&Src=IP&Params=DestApp%3DIC2JCR&RouterURL=https%3A%2F%2Flogin.incites.thomsonreuters.com%2F&Error=IPError">JCR</a><!-- and <a target="_blank" class="blue" href="http://www.anvur.org/index.php?option=com_content&view=article&id=77&Itemid=375&lang=it">Italian-ANVUR (VQR-2012)</a>--> and Conferences according to <a target="_blank" class="blue" href="http://www.consorzio-cini.it:8080/consultazioneclassificazioni/"><!--CORE/LiveSHINE/MicrosoftAcademic/-->GII-GRIN-SCIE</a>]
+							</p>
+						</font>
+						
+					    <hr style="margin-top:20px;">
+
+					<h3 id="journals">Journal papers</h3>
+						<ul class="publications">
+							<li style="margin-left: 31px;">
+								[J3] Mauro Conti, <u>Ankit Gangwal</u>, Muhammad Hassan, Chhagan Lal, Eleonora Losiouk<sup>&#x2733;</sup>.
+								<br>The Road Ahead for Networking: A Survey on ICN-IP Coexistence Solutions.
+								<br>In <i><b>(IEEE) Communications Surveys & Tutorials</b></i>, 22(3): 2104-2129, 2020.
+								<br><b class="rate">(JCR IF 2019: 22.973<!--; IT-ANVUR Class: 2-->)</b>
+								<br>[<a onclick="javascript:toggle_cite('J3')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/COMST.2020.2994526" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="J3">
+									<pre>
+										<code>
+										@article{conti2020road,
+										  title={The Road Ahead for Networking: A Survey on ICN-IP Coexistence Solutions},
+										  author={Conti, Mauro and Gangwal, Ankit and Hassan, Muhammad and Lal, Chhagan and Losiouk, Eleonora},
+										  journal={IEEE Communications Surveys \& Tutorials},
+										  volume={22},
+										  number={3},
+										  pages={2104--2129},
+										  year={2020},
+										  publisher={IEEE}
+										}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[J2] <u>Ankit Gangwal</u>, Mauro Conti.
+								<br>Cryptomining cannot Change its Spots: Detecting Covert Cryptomining using Magnetic Side-channel.
+								<br>In <i><b>(IEEE) Transactions on Information Forensics & Security</b></i>, 15(1): 1630-1639, 2019.
+								<br><b class="rate">(JCR IF 2018: 6.211<!--; IT-ANVUR Class: 1-->)</b>
+								<br>[<a onclick="javascript:toggle_cite('J2')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/TIFS.2019.2945171" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="J2">
+									<pre>
+										<code>
+											@article{gangwal2019cryptomining,
+											  title={Cryptomining cannot Change its Spots: Detecting Covert Cryptomining using Magnetic Side-channel},
+											  author={Gangwal, Ankit and Conti, Mauro},
+											  journal={IEEE Transactions on Information Forensics and Security},
+											  volume={15},
+											  number={1},
+											  pages={1630--1639},
+											  year={2019},
+											  publisher={IEEE}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[J1] Mauro Conti, <u>Ankit Gangwal</u><sup>&#x2733;</sup>, Sushmita Ruj.
+								<br>On the Economic Significance of Ransomware Campaigns: A Bitcoin Transactions Perspective.
+								<br>In <i><b>(Elsevier) Computers & Security</b></i>, 79: 162-189, 2018.
+								<br><b class="rate">(JCR IF 2017: 2.650<!--; IT-ANVUR Class: 2-->)</b>
+								<br>[<a onclick="javascript:toggle_cite('J1')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1016/j.cose.2018.08.008" class="blue">DOI</a>] [<a target="_blank" href="http://spritz.math.unipd.it/projects/btcransomware/" class="blue">Project's page</a>]
+								<br>
+								[Media coverage: <a target="_blank" href="https://www.technologyreview.com/s/610803/true-scale-of-bitcoin-ransomware-extortion-revealed/" class="blue">MIT Technology Review</a>, <a target="_blank" href="https://internethealthreport.org/2019/ransomware-payments-add-up/" class="blue">Mozilla Internet Health Report 2019</a>]
+								<div class="BibTeX_hidden" id="J1">
+									<pre>
+										<code>
+											@article{conti2018economic,
+											  title={On the Economic Significance of Ransomware Campaigns: A Bitcoin Transactions Perspective},
+											  author={Conti, Mauro and Gangwal, Ankit and Ruj, Sushmita},
+											  journal={Computers \& Security},
+											  volume={79},
+											  pages={162--189},
+											  year={2018},
+											  publisher={Elsevier}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+						</ul>
+
+					<h3 id="conferences">Conference & Workshop papers</h3>
+						<ul class="publications">
+							<li style="margin-left: 31px;">
+								[C11] Dario Pasquini, <u>Ankit Gangwal</u>, Giuseppe Ateniese, Massimo Bernaschi, Mauro Conti.
+								<br>Improving Password Guessing via Representation Learning.
+								<br>In <i>Proceedings of the 42nd IEEE Symposium on Security and Privacy
+								<br><b>(IEEE S&P 2021 Oakland)</b></i>, <u class="in_press">in press</u>, San Francisco, USA, May 23-27, 2021.
+								<br><b class="rate">(GGS: 1/A++; CORE: A++; LiveSHINE: A++; MA: A++)</b>
+								<br><!--[<a onclick="javascript:toggle_cite('C11')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/" class="blue">DOI</a>] -->[<a target="_blank" href="https://github.com/pasquini-dario/PLR" class="blue">Project's page</a>]
+								<div class="BibTeX_hidden" id="C11">
+									<pre>
+										<code>
+										
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C10] <u>Ankit Gangwal</u>, Samuele Giuliano Piazzetta, Gianluca Lain, Mauro Conti.
+								<br>Detecting Covert Cryptomining using HPC.
+								<br>In <i>Proceedings of the 19th International Conference on Cryptology And Network Security
+								<br><b>(CANS 2020)</b></i>, <u class="in_press">in press</u>, Vienna, Austria, December 14-16, 2020.
+								<br><b class="rate">(CORE: B; MA: C; Acceptance rate: 25.42%)</b>
+								<br><!--[<a onclick="javascript:toggle_cite('C10')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/" class="blue">DOI</a>] -->[<a target="_blank" href="https://spritz.math.unipd.it/projects/cryptojackers/" class="blue">Project's page</a>]
+								<div class="BibTeX_hidden" id="C10">
+									<pre>
+										<code>
+										
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C9] Eireann Leverett, Eric Jardine, Erin Burns, <u>Ankit Gangwal</u>, Dan Geer.
+								<br>Averages don't Characterise the Heavy Tails of Ransoms.
+								<br>In <i>Proceedings of the 15th APWG/IEEE Symposium on Electronic Crime Research
+								<br><b>(APWG/IEEE eCrime 2020)</b></i>, <u class="in_press">in press</u>, Boston, USA, November 16-19, 2020.
+								<br><!--[<a onclick="javascript:toggle_cite('C9')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/" class="blue">DOI</a>]-->
+								<div class="BibTeX_hidden" id="C9">
+									<pre>
+										<code>
+										
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C8] Mauro Conti, <u>Ankit Gangwal</u><sup>&#x2733;</sup>, Michele Todero.
+								<br>Blockchain Trilemma Solver Algorand has Dilemma over Undecidable Messages.
+								<br>In <i>Proceedings of the 14th International Conference on Availability, Reliability and Security
+								<br><b>(ARES 2019)</b></i>, pages 1-8, Canterbury, England, August 26-29, 2019.
+								<br><b class="rate">(GGS: 3/B; CORE: B; LiveSHINE: A-; Acceptance rate: 20.75%)</b>
+								<br>[<a onclick="javascript:toggle_cite('C8')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1145/3339252.3339255" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="C8">
+									<pre>
+										<code>
+											@inproceedings{conti2019blockchain,
+											  title={Blockchain Trilemma Solver Algorand has Dilemma over Undecidable Messages},
+											  author={Conti, Mauro and Gangwal, Ankit and Todero, Michele},
+											  booktitle={Proceedings of the 14th International Conference on Availability, Reliability and Security},
+											  pages={1--8},
+											  year={2019}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C7] Md. Hajian Berenjestanaki, Mauro Conti, <u>Ankit Gangwal</u><sup>&#x2733;</sup>.
+								<br>On the Exploitation of Online SMS Receiving Services to Forge ID Verification.
+								<br>In <i>Proceedings of the 14th International Conference on Availability, Reliability and Security
+								<br><b>(ARES 2019)</b></i>, pages 1-5, Canterbury, England, August 26-29, 2019.
+								<br><b class="rate">(GGS: 3/B; CORE: B; LiveSHINE: A-; Acceptance rate: 20.75%)</b>
+								<br>[<a onclick="javascript:toggle_cite('C7')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1145/3339252.3339276" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="C7">
+									<pre>
+										<code>
+											@inproceedings{berenjestanaki2019exploitation,
+											  title={On the Exploitation of Online SMS Receiving Services to Forge ID Verification},
+											  author={Berenjestanaki, Md Hajian and Conti, Mauro and Gangwal, Ankit},
+											  booktitle={Proceedings of the 14th International Conference on Availability, Reliability and Security},
+											  pages={1--5},
+											  year={2019}
+											}										
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C6] Fabio Aiolli, Mauro Conti, <u>Ankit Gangwal</u><sup>&#x2733;</sup>, Mirko Polato.
+								<br>Mind Your Wallet's Privacy: Identifying Bitcoin Wallet Apps and User's Actions through Network Traffic Analysis.
+								<br>In <i>Proceedings of the 34th ACM Symposium on Applied Computing
+								<br><b>(ACM SAC 2019)</b></i>, pages 1484-1491, Limassol, Cyprus, April 8-12, 2019.
+								<br><b class="rate">(GGS: 2/A-; CORE: B; LiveSHINE: A; MA: A-)</b>
+								<br>[<a onclick="javascript:toggle_cite('C6')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1145/3297280.3297430" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="C6">
+									<pre>
+										<code>
+											@inproceedings{aiolli2019mind,
+											  title={Mind Your Wallet's Privacy: Identifying Bitcoin Wallet Apps and User's Actions through Network Traffic Analysis},
+											  author={Aiolli, Fabio and Conti, Mauro and Gangwal, Ankit and Polato, Mirko},
+											  booktitle={Proceedings of the 34th ACM Symposium on Applied Computing},
+											  pages={1484--1491},
+											  year={2019}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C5] Mauro Conti, <u>Ankit Gangwal</u><sup>&#x2733;</sup>, Sarada Prasad Gochhayat, Gabriele Tolomei.
+								<br>Spot the Difference: Your Bucket is Leaking - A Novel Methodology to Expose A/B Testing Effortlessly.
+								<br>In <i>Proceedings of the 4th IEEE Workshop on Security and Privacy in the Cloud
+								<br><b>(IEEE CNS 2018 workshop: SPC 2018)</b></i>, pages 1-7, Beijing, China, May 30, 2018.
+								<br>[<a onclick="javascript:toggle_cite('C5')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/CNS.2018.8433122" class="blue">DOI</a>] [<a target="_blank" href="https://spritz.math.unipd.it/projects/bucket_testing/" class="blue">Project's page</a>]
+								<div class="BibTeX_hidden" id="C5">
+									<pre>
+										<code>
+											@inproceedings{conti2018spot,
+											  title={Spot the Difference: Your Bucket is Leaking - A Novel Methodology to Expose A/B Testing Effortlessly},
+											  author={Conti, Mauro and Gangwal, Ankit and Gochhayat, Sarada Prasad and Tolomei, Gabriele},
+											  booktitle={Proceedings of the 4th IEEE Workshop on Security and Privacy in the Cloud (IEEE CNS 2018 workshop: SPC 2018)},
+											  pages={1--7},
+											  year={2018}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C4] Mauro Conti, <u>Ankit Gangwal</u>.
+								<br>Blocking Intrusions at Border using Software Defined-Internet Exchange Point (SD-IXP).
+								<br>In <i>Proceedings of the 3rd IEEE Conference on Network Function Virtualization and Software Defined Networks
+								<br><b>(IEEE NFV-SDN 2017)</b></i>, pages 1-6, Berlin, Germany, November 6-8, 2017.
+								<br>[<a onclick="javascript:toggle_cite('C4')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/NFV-SDN.2017.8169838" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="C4">
+									<pre>
+										<code>
+											@inproceedings{conti2017blocking,
+											  title={Blocking Intrusions at Border using Software Defined-Internet Exchange Point (SD-IXP)},
+											  author={Conti, Mauro and Gangwal, Ankit},
+											  booktitle={Proceedings of the 3rd IEEE Conference on Network Function Virtualization and Software Defined Networks},
+											  pages={1--6},
+											  year={2017}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C3] Mauro Conti, <u>Ankit Gangwal</u>, Manoj Singh Gaur.
+								<br>A Comprehensive and Effective Mechanism for DDoS Detection in SDN.
+								<br>In <i>Proceedings of the 13th IEEE International Conference on Wireless and Mobile Computing, Networking and Communications
+								<br><b>(IEEE WiMob 2017)</b></i>, pages 1-8, Rome, Italy, October 9-11, 2017.
+								<br><b class="rate">(GGS: 3/B; LiveSHINE: B; MA: B; Acceptance rate: 28%)</b>
+								<br>[<a onclick="javascript:toggle_cite('C3')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/WiMOB.2017.8115796" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="C3">
+									<pre>
+										<code>
+											@inproceedings{conti2017comprehensive,
+											  title={A Comprehensive and Effective Mechanism for DDoS Detection in SDN},
+											  author={Conti, Mauro and Gangwal, Ankit and Gaur, Manoj Singh},
+											  booktitle={Proceedings of the 13th IEEE International Conference on Wireless and Mobile Computing, Networking and Communications},
+											  pages={1--8},
+											  year={2017}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C2] <u>Ankit Gangwal</u>, Mauro Conti, Manoj Singh Gaur.
+								<br>PANORAMA: Real-time Bird's Eye View of an OpenFlow Network.
+								<br>In <i>Proceedings of the 14th IEEE International Conference on Networking, Sensing and Control
+								<br><b>(IEEE ICNSC 2017)</b></i>, pages 204-209, Falerna, Italy, May 16-18, 2017.
+								<br><b class="rate">(GGS: 3/B; LiveSHINE: B; MA: B)</b>
+								<br>[<a onclick="javascript:toggle_cite('C2')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/ICNSC.2017.8000092" class="blue">DOI</a>] [<a target="_blank" href="https://spritz.math.unipd.it/projects/pm/" class="blue">Project's page</a>]
+								<div class="BibTeX_hidden" id="C2">
+									<pre>
+										<code>
+											@inproceedings{gangwal2017panorama,
+											  title={PANORAMA: Real-time Bird's Eye View of an OpenFlow Network},
+											  author={Gangwal, Ankit and Conti, Mauro and Gaur, Manoj Singh},
+											  booktitle={Proceedings of the 14th IEEE International Conference on Networking, Sensing and Control},
+											  pages={204--209},
+											  year={2017}
+											}										
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[C1] <u>Ankit Gangwal</u>, Megha Gupta, Manoj Singh Gaur, Vijay Laxmi, Mauro Conti.
+								<br>ELBA: Efficient Layer Based Routing Algorithm in SDN.
+								<br>In <i>Proceedings of the 25th IEEE International Conference on Computer Communication and Networks
+								<br><b>(IEEE ICCCN 2016)</b></i>, pages 1-7, Waikoloa, USA, August 1-4, 2016.
+								<br><b class="rate">(GGS: 2/A-; CORE: A; LiveSHINE: A-; MA: A-)</b>
+								<br>[<a onclick="javascript:toggle_cite('C1')" class="blue">BibTeX</a>] [<a target="_blank" href="http://doi.org/10.1109/ICCCN.2016.7568515" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="C1">
+									<pre>
+										<code>
+											@inproceedings{gangwal2016elba,
+											  title={ELBA: Efficient Layer Based Routing Algorithm in SDN},
+											  author={Gangwal, Ankit and Gupta, Megha and Gaur, Manoj Singh and Laxmi, Vijay and Conti, Mauro},
+											  booktitle={Proceedings of the 25th IEEE International Conference on Computer Communication and Networks},
+											  pages={1--7},
+											  year={2016}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+						</ul>
+
+					<h3 id="theses">Theses</h3>
+						<ul class="publications">
+							<li style="margin-left: 31px;">
+								[PT] <u>Ankit Gangwal</u>.<br>
+								Security and Privacy Implications of Cryptocurrencies.
+								<br><i>Doctoral Thesis</i>, October 2019.
+								<br> Supervisor: Prof. Mauro Conti.
+								<br> Co-supervisor: Prof. Anna Spagnolli.
+								<br> University of Padua, Italy.
+							</li>
+
+							<br>
+
+							<li style="margin-left: 31px;">
+								[MT] <u>Ankit Gangwal</u>.<br>
+								Efficient SVC Video Streaming over Software Defined Networks.
+								<br><i>Master Thesis</i>, June 2016.
+								<br> Supervisor: Prof. Manoj Singh Gaur.
+								<br> Malaviya National Institute of Technology, India.
+							</li>
+						</ul>
+
+					<!--
+					<h3 id="submitted">Papers under review</h3>
+						<ul class="publications">
+							<li style="margin-left: 31px;">
+								[J<sub>x</sub>] <u>Ankit Gangwal</u><sup>&#x2733;</sup>.
+								<br>Title.
+								<br>In <i><b>(IEEE) Transactions on ABC</b></i>.
+								<br>[<a target="_blank" href="https://arxiv.org/abs/" class="blue">Preprint</a>]
+								[<a target="_blank" href="https://Projects.Page/Name/" class="blue">Project's page</a>]
+							</li>
+						</ul>
+					-->
+					</div>
+					<hr style="margin-top:20px;">
+                </div>
+                  
+                <div id="footer">
+                	<!--<script src="./js/footer.js"></script>-->
+                </div>
+            	
+            </div>
+        </div>
+<button onclick="topFunction()" id="topbtn"><i class="fas fa-arrow-up"></i></button>
+<button id="darkmodebtn" checkdarkmode="1"><i class="fas fa-moon"></i></button>
+<script src="./js/commonJSFeatures.js" type="text/javascript"></script>
+<script src="./js/gtag.js"></script>
+</body></html>

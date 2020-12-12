@@ -1,0 +1,13 @@
+Sitemap: https://ciaoankit.github.io/sitemap.xml
+User-agent: AhrefsBot
+Disallow: / 
+
+User-Agent: *
+Disallow: /cv/
+Disallow: /files/
+Disallow: /icons/
+Disallow: /images/
+Disallow: /js/
+Disallow: /redirect/
+Disallow: /scripts/
+Disallow: /style/
