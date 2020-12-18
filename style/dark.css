@@ -80,6 +80,10 @@ i.fa-arrow-left, i.fa-arrow-right{
   background-color: #FFFFFF; 
 }
 
+#teachingContainer{
+  border-color: #FFF;
+  background-color: #000;
+}
 
 /* Invert these */
 img:not(.round):not(.no_invert_img), object, .leftvcenter, #citations_chart_area{
@@ -96,7 +100,7 @@ a.blue{
 }
 
 .rate {
-  color : #26a4a4;
+  color : #26A4A4;
 }
 
 /* Track thumb in vertical */

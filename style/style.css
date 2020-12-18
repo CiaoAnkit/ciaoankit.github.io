@@ -506,6 +506,72 @@ ul.list_collapsable li {
   transform: translate3d(-7px,0,0);
 }
 
+/* TeachingOverlayContainer */
+#teachingOverlay{
+  position: fixed;
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.95);
+  overflow: hidden;
+  -webkit-animation: fadeInAnimation ease .25s 1 forwards;
+  -moz-animation: fadeInAnimation ease .25s 1 forwards;
+  -ms-animation: fadeInAnimation ease .25s 1 forwards;
+  -o-animation: fadeInAnimation ease .25s 1 forwards;
+  animation: fadeInAnimation ease .25s 1 forwards;
+  z-index: 11;
+}
+
+#closeBtnTeachingOverlay{
+  position: sticky;
+  top: 1%;
+  left: 1%;
+  border: none;
+  background-color: transparent;
+  height: 23px;
+  width: 23px;
+  cursor: pointer;
+  padding: unset;
+  /*
+  outline: none;
+  text-decoration: none;
+  border-radius: 35px;
+  */
+}
+
+#teachingContainer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  width: 80%;
+  max-width: 850px;
+  min-width: 285px;
+  background-color: #FFF;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: thin;
+  overflow: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+/* Hide scrollbar */
+#teachingContainer::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+#teachingContainer {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /*  Data-Title */
 [data-title]:hover:after {
   opacity: 1;
@@ -987,10 +1053,10 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
 #disclaimer_div {
   background: #000;
-  color: #fff;
+  color: #FFF;
   padding: 15px;
   border-radius: 10px;
-  border-color: #fff;
+  border-color: #FFF;
   border-width: 1px;
   border-style: solid;
 }

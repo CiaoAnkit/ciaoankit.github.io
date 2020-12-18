@@ -45,9 +45,10 @@ document.getElementById("header_area_id").innerHTML +=  "\
 			\
 			<!--<li id=\"cv\"><a href=\"./cv.html\">Curriculum Vitae</a></li>-->\
 			\
+		<li id=\"teaching\"><a href=\"./teaching.html\">Teaching</a></li>\
 		<li style=\"margin-left: auto;\" class=\"closed\" id=\"dropdown_li\"><a href=\"javascript:void(0)\" onclick=\"ToggleDropDown()\">Misc. Information<i class=\"fas fa-caret-down\" style=\"margin-left: -4px;\" id=\"dropdown_caret_icon\"></i></a>\
-	        <ul class=\"dropdown\">\
-	        	<li id=\"analytics\"><a href=\"./analytics.html\">Analytics</a></li>\
+			<ul class=\"dropdown\">\
+				<li id=\"analytics\"><a href=\"./analytics.html\">Analytics</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
 				<li id=\"timeline\"><a href=\"./timeline.html\">My Timeline</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
@@ -57,9 +58,9 @@ document.getElementById("header_area_id").innerHTML +=  "\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
 				<li id=\"nl\"><a href=\"./isnltev.html\">Travel NL TEV</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
-	        	<li id=\"usa\"><a href=\"./isusaj1.html\">Travel USA J1</a></li>\
-	        </ul>\
-	    </li>\
+				<li id=\"usa\"><a href=\"./isusaj1.html\">Travel USA J1</a></li>\
+			</ul>\
+		</li>\
 	</ul>\
 	";
 	document.getElementById(MenuPageName).getElementsByTagName('a')[0].classList.add("active");
@@ -186,6 +187,51 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	        }
 	}
 /* ToggleBibTeX Ends */
+
+/* loadTeachingCourse Begins */
+	function includeHTML() {
+		var z, i, elmnt, file, xhttp;
+		/* Loop through a collection of all HTML elements */
+		z = document.getElementsByTagName("*");
+		for (i = 0; i < z.length; i++) {
+			elmnt = z[i];
+			/* Search for elements with a certain atrribute */
+			file = elmnt.getAttribute("w3-include-html");
+			if (file) {
+				/* Make an HTTP request using the attribute value as the file name */
+				xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function() {
+					if (this.readyState == 4) {
+						if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+						if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+						/* Remove the attribute, and call this function once more */
+						elmnt.removeAttribute("w3-include-html");
+						includeHTML();
+					}
+				}			
+				xhttp.open("GET", file, true);
+				xhttp.send();
+				/* Exit the function */
+				return;
+			}
+		}
+	};
+	
+	function loadTeachingCourse(pageID){
+		document.getElementById('teachingOverlay').style.display = 'block';
+		document.getElementById('menu_bar_div').style.display='none';
+		document.getElementById('footer').style.display='none';
+
+		teachingContainer.innerHTML = "";
+		teachingContainer.innerHTML = "<button id=\"closeBtnTeachingOverlay\" onclick=\"function hideTeachingOverlay(){\
+										document.getElementById('teachingOverlay').style.display = 'none';\
+										document.getElementById('menu_bar_div').style.display='block';\
+										document.getElementById('footer').style.display='block';\
+										};hideTeachingOverlay()\"><i class=\"fas fa-times-circle\" style=\"display:contents; font-size: 20px; color: #ff0000\"></i></button>";
+		teachingContainer.innerHTML += "<div w3-include-html=\""+pageID+"\"></div>";
+		includeHTML();
+		}
+/* loadTeachingCourse Ends */
 
 /* ResponsiveMenu Begins */
 	var x = document.getElementById("menu_bar_div");
