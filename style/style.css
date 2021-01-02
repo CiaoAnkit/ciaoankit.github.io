@@ -186,7 +186,7 @@ img.email:hover{
   border-style: solid;
   border-width: thin;
   border-color: #808080;
-  width: 165px;
+  width: 190px;
 }
 
 .round1{
@@ -526,6 +526,8 @@ ul.list_collapsable li {
 
 #closeBtnTeachingOverlay{
   position: sticky;
+  position: -webkit-sticky;
+  display: block;
   top: 1%;
   left: 1%;
   border: none;
@@ -797,9 +799,11 @@ i.fa-file-pdf{
   transform: scale(1.0);
 }
 
-i.fa-at, i.fa-at:hover, i.fa-at:active, 
-i.fa-user-friends, i.fa-user-friends:hover, i.fa-user-friends:active, 
-i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active { 
+i.fa-at, i.fa-at:hover, i.fa-at:active,
+i.fa-phone, i.fa-phone:hover, i.fa-phone:active,
+i.fa-fax, i.fa-fax:hover, i.fa-fax:active,
+i.fa-user-friends, i.fa-user-friends:hover, i.fa-user-friends:active,
+i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   border-radius: 0px;
   color: #000;
   background-color: #fff;
