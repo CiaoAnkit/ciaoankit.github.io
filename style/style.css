@@ -172,6 +172,7 @@ img.email, img.email:active{
   border-radius: 3px;
   border-style: solid;
   border-width: thin;
+  cursor: pointer;
 }
 
 img.email:hover{
@@ -312,6 +313,7 @@ a.blue {
   background-image: linear-gradient(transparent calc(100% - 10%), #0000FF 1px);
   background-repeat: no-repeat;
   background-size: 0% 100%;
+  cursor: pointer;
   -webkit-transition: background-size .5s;
   -moz-transition: background-size .5s;
   -ms-transition: background-size .5s;
@@ -378,6 +380,7 @@ ul li ul.dropdown li{
   content: "\f055";
   display: inline-block; 
   font-weight: 900;
+  cursor: pointer;
 }
 
 .checkbox:checked + label:before {
