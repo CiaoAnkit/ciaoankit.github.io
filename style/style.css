@@ -615,11 +615,17 @@ ul.list_collapsable li {
   z-index: 11;
 }
 
+/*  Telephone */
+a[href^="tel:"] { /* , a[href*="maps.xyz.com"] */
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Font awesome */
 i.fab, i.fas {
+  display: inline-block;
   border-radius: 20px;
   color: #FFF;
-  display: inline-block;
   height: 23px;
   width: 23px;
   line-height: 23px;
@@ -1419,4 +1425,11 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
     line-height: none;
   }
   */  
+}
+
+/* CSS specific to iOS devices */
+@supports (-webkit-touch-callout: none) {
+  i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-arrow-left, i.fa-arrow-right{
+  margin: auto -4px;
+  }
 }
