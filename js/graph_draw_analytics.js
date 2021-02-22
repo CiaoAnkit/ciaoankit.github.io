@@ -9,7 +9,7 @@ google.charts.setOnLoadCallback(drawRegionsMap);
 
 function get_json() {
 //return $.getJSON('./files/analytics_report.json');
-return $.getJSON('https://cors-anywhere.herokuapp.com/https://www.math.unipd.it/~gangwal/analytics_report.json');
+return $.getJSON('https://api.allorigins.win/raw?&url=https://www.math.unipd.it/~gangwal/analytics_report.json');
 
 }
 

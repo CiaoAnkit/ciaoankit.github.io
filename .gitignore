@@ -28,7 +28,7 @@ js/typewriter.js
 #script folder
 scripts/how_to_cronjob.txt
 scripts/analytics_reporting.py
-scripts/citation_reporting.py
+scripts/citations_reporting.py
 
 #style folder
 style/zSMART_dark.css

@@ -7,8 +7,8 @@ google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(drawMultSeries);
 
 function get_json() {
-//return $.getJSON('./files/citation_report_all.json');
-return $.getJSON('https://cors-anywhere.herokuapp.com/https://www.math.unipd.it/~gangwal/citation_report_all.json');
+//return $.getJSON('./files/citations_report.json');
+return $.getJSON('https://api.allorigins.win/raw?&url=https://www.math.unipd.it/~gangwal/citations_report.json');
 
 }
 
