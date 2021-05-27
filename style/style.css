@@ -1214,7 +1214,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   }    
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 520px) {
   /* Make media icons align vertically in smaller screen */
   .media {
       flex-direction: column;
@@ -1357,7 +1357,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 */
 
 /* Responsive menubar disappears after this */
-@media screen and (min-width: 521px) { /* 581px for CV */
+@media screen and (min-width: 521px) { /* 581px for CV [POS_1] */
   li.menu_bar_li {
     display: none;
   }
@@ -1368,7 +1368,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Responsive menubar appears before this*/
-@media screen and (max-width: 520px) { /* 580px for CV */
+@media screen and (max-width: 520px) { /* 580px for CV [POS_2] */
   .header li:first-child{
     margin-top: 3px;
   }

@@ -279,7 +279,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	    }
 	  }
 	}
-	var b = window.matchMedia("(min-width: 520px)") /* 580px for CV */
+	var b = window.matchMedia("(min-width: 520px)") /* 580px for CV [POS_3] */
 	CloseResponsiveMenuBar(b) // Call listener function at run time
 	b.addListener(CloseResponsiveMenuBar) // Attach listener function on state changes
 
