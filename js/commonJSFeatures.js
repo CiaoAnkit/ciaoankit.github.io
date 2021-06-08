@@ -45,7 +45,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 			\
 			<!--<li id=\"cv\"><a href=\"./cv.html\">Curriculum Vitae</a></li>-->\
 			\
-		<li id=\"teaching\"><a href=\"./teaching.html\">Teaching</a></li>\
+		<li id=\"teaching\"><a href=\"./teaching.html\">Teaching & Students</a></li>\
 		<li style=\"margin-left: auto;\" class=\"closed\" id=\"dropdown_li\"><a href=\"javascript:void(0)\" onclick=\"ToggleDropDown()\">Misc. Information<i class=\"fas fa-caret-down\" style=\"margin-left: -4px;\" id=\"dropdown_caret_icon\"></i></a>\
 			<ul class=\"dropdown\">\
 				<li id=\"analytics\"><a href=\"./analytics.html\">Analytics</a></li>\
@@ -79,7 +79,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	var curr_year = new Date();
 
 	if (footer_id == 1) {
-		update_date = "May 21, 2021";
+		update_date = "June 08, 2021";
 	}
 
 	if (footer_id == 2) {
