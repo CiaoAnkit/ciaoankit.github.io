@@ -403,7 +403,7 @@ ul li ul.dropdown li{
 
 .checkbox:checked + label + ul {
   /*display: block;*/
-  max-height: 500px; /* CHANGE THIS VALUE ACCORDING TO THE CONTENT */
+  max-height: 750px; /* CHANGE THIS VALUE ACCORDING TO THE CONTENT */
 }
 
 ul.list_collapsable{
