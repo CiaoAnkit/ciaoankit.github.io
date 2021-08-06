@@ -79,7 +79,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	var curr_year = new Date();
 
 	if (footer_id == 1) {
-		update_date = "July 29, 2021";
+		update_date = "August 01, 2021";
 	}
 
 	if (footer_id == 2) {
@@ -221,6 +221,8 @@ document.getElementById("header_area_id").innerHTML +=  "\
 		document.getElementById('teachingOverlay').style.display = 'block';
 		document.getElementById('menu_bar_div').style.display='none';
 		document.getElementById('footer').style.display='none';
+
+		document.getElementById('teachingContainer').scrollTop = 0; // Reset teachingContainer's scroll position
 
 		teachingContainer.innerHTML = "";
 		teachingContainer.innerHTML = "<button id=\"closeBtnTeachingOverlay\" onclick=\"function hideTeachingOverlay(){\
