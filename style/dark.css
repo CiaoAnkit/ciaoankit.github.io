@@ -81,8 +81,13 @@ i.fa-arrow-left, i.fa-arrow-right{
 }
 
 #teachingContainer{
-  border-color: #FFF;
-  background-color: #000;
+  border-color: #FFFFFF;
+  background-color: #000000;
+}
+
+.colorful_flashing_text_module_div {
+  background: #000000;
+  color: #FFFFFF;
 }
 
 /* Invert these */

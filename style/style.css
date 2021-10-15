@@ -21,7 +21,9 @@ body {
   min-width: 355px;
   /*min-width: auto;*/
   max-width: 1000px;
-  background:#fff; 
+  color: #000000;
+  border-color: #000000;
+  background-color: #FFFFFF;
   border-radius: 10px 10px 10px 10px;
   border-style: solid;
   border-width: thin;
@@ -517,7 +519,7 @@ ul.list_collapsable li {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0, 0.95);
+  background-color: rgba(0,0,0, 0.9);
   overflow: hidden;
   -webkit-animation: fadeInAnimation ease .25s 1 forwards;
   -moz-animation: fadeInAnimation ease .25s 1 forwards;
@@ -1097,6 +1099,62 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/* Colorful flashing text */
+.colorful_flashing_text_wrap_div {
+  display: inline-block;
+  background: linear-gradient(to right, #FF0000, #0000FF);
+  max-width: fit-content;
+  padding: 2px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.colorful_flashing_text_module_div {
+  background: #FFFFFF;
+  color: #000000;
+  padding: 2px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.colorful_flashing_text {
+  text-transform: uppercase;
+  background: linear-gradient(to right, #FFD700 0%, #FF7700 40%, #CF0020 80%);
+  background-size: 200% auto;
+  
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Animate new item */
+    -webkit-animation: colorfulFlashingText 2s linear reverse infinite;  /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: colorfulFlashingText 2s linear reverse infinite;     /* Firefox < 16 */
+    -ms-animation: colorfulFlashingText 2s linear reverse infinite;      /* Internet Explorer */
+    -o-animation: colorfulFlashingText 2s linear reverse infinite;       /* Opera < 12.1 */
+    animation: colorfulFlashingText 2s linear reverse infinite;
+}
+
+/* Define keyframes colorfulFlashingText */
+@-webkit-keyframes colorfulFlashingText { 
+  to {background-position: 200% center;}
+}
+
+@-moz-keyframes colorfulFlashingText { 
+  to {background-position: 200% center;}
+}
+
+@-ms-keyframes colorfulFlashingText { 
+  to {background-position: 200% center;}
+}
+
+@-o-keyframes colorfulFlashingText { 
+  to {background-position: 200% center;}
+}
+
+@keyframes colorfulFlashingText { 
+  to {background-position: 200% center;}
+}
+
 /*
   / Progress bar /
   progress {
