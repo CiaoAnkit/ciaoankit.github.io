@@ -79,7 +79,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	var curr_year = new Date();
 
 	if (footer_id == 1) {
-		update_date = "October 15, 2021";
+		update_date = "November 01, 2021";
 	}
 
 	if (footer_id == 2) {
