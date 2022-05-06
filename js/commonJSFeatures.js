@@ -79,7 +79,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	var curr_year = new Date();
 
 	if (footer_id == 1) {
-		update_date = "April 18, 2022";
+		update_date = "May 05, 2022";
 	}
 
 	if (footer_id == 2) {
