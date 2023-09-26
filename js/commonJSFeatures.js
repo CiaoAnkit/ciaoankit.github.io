@@ -79,7 +79,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	var curr_year = new Date();
 
 	if (footer_id == 1) {
-		update_date = "July 15, 2023";
+		update_date = "September 23, 2023";
 	}
 
 	if (footer_id == 2) {
