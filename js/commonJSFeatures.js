@@ -50,6 +50,8 @@ document.getElementById("header_area_id").innerHTML +=  "\
 			<ul class=\"dropdown\">\
 				<li id=\"analytics\"><a href=\"./analytics.html\">Analytics</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
+				<li id=\"media\"><a href=\"./media.html\">Media Coverage</a></li>\
+				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
 				<li id=\"timeline\"><a href=\"./timeline.html\">My Timeline</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
 				<li id=\"news\"><a href=\"./news.html\">News Archive</a></li>\
@@ -79,7 +81,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	var curr_year = new Date();
 
 	if (footer_id == 1) {
-		update_date = "September 25, 2023";
+		update_date = "October 25, 2023";
 	}
 
 	if (footer_id == 2) {
