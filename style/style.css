@@ -702,7 +702,7 @@ i.fa-home {
   transform: scale(1.0); 
 }
 
-i.fa-arrow-up, i.fa-moon, i.fa-sun {
+i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-expand, i.fa-compress {
   display: inline-block;
   color: #FFF;
   height: 23px;
@@ -813,6 +813,8 @@ i.fa-file-pdf{
 .fa-arrow-left:hover, .fa-arrow-left:active, 
 .fa-arrow-right:hover, .fa-arrow-right:active, 
 .fa-arrow-up:hover, .fa-arrow-up:active, 
+.fa-expand:hover, .fa-expand:active,
+.fa-compress:hover, .fa-compress:active,
 .fa-moon:hover, .fa-moon:active, 
 .fa-sun:hover, .fa-sun:active {
   -webkit-transform: scale(1.0);
@@ -913,14 +915,6 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   transition: transform 0.3s ease-in-out;
 }
 
-#topbtn:hover, #topbtn:active { 
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
-  transform: scale(1.3); 
-}
-
 /* Dark mode button */
 #darkmodebtn {
   display: none;
@@ -945,20 +939,36 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   transition: transform 0.3s ease-in-out;
 }
 
-#darkmodebtn:hover, #darkmodebtn:active { 
-  -webkit-transform: scale(1.3);
-  -moz-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  -o-transform: scale(1.3);
-  transform: scale(1.3); 
-}
-
 /*Hide button on Firefox*/
 /*
 @-moz-document url-prefix('') {
   #darkmodebtn{visibility: hidden;}
 }
 */
+
+/* Fullscreen mode button */
+#fullscreenbtn {
+  display: block;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  bottom: 2%;
+  right: 2%;
+  z-index: 99;
+  text-decoration: none;
+  border-radius: 35px;
+  
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out;
+  -ms-transition: -ms-transform 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
 
 /* Chart area */
 #citations_chart_area
@@ -1002,7 +1012,11 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   transition: transform 0.3s ease-in-out;
 }
 
-#nextbtn:hover, #nextbtn:active, #prevbtn:hover, #prevbtn:active { 
+#topbtn:hover, #topbtn:active, 
+#darkmodebtn:hover, #darkmodebtn:active, 
+#fullscreenbtn:hover, #fullscreenbtn:active, 
+#nextbtn:hover, #nextbtn:active, 
+#prevbtn:hover, #prevbtn:active { 
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
@@ -1513,7 +1527,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
 /* CSS specific to iOS devices */
 @supports (-webkit-touch-callout: none) {
-  i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-arrow-left, i.fa-arrow-right{
+  i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-expand, i.fa-compress, i.fa-arrow-left, i.fa-arrow-right{
   margin: auto -4px;
   }
 }

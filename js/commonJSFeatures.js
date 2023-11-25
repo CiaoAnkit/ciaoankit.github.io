@@ -50,6 +50,8 @@ document.getElementById("header_area_id").innerHTML +=  "\
 			<ul class=\"dropdown\">\
 				<li id=\"analytics\"><a href=\"./analytics.html\">Analytics</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
+				<li id=\"clock\"><a href=\"./clock.html\">Clock</a></li>\
+				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
 				<li id=\"media\"><a href=\"./media.html\">Media Coverage</a></li>\
 				<div style=\"font-size:0;height:15px;\">&nbsp;</div>\
 				<li id=\"timeline\"><a href=\"./timeline.html\">My Timeline</a></li>\
@@ -78,10 +80,10 @@ document.getElementById("header_area_id").innerHTML +=  "\
 
 /* Footer Begins */
 	var update_date = "";
-	var curr_year = new Date();
+	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "October 25, 2023";
+		update_date = "November 25, 2023";
 	}
 
 	if (footer_id == 2) {
@@ -99,7 +101,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	document.getElementById("footer").innerHTML +=  "\
 	Last updated (with<i class=\"fas fa-heart\"></i>&<i class=\"fas fa-coffee\"></i>) on " + update_date + "\
 	<br>\
-	A_G\ &#169; 2016 - " + curr_year.getFullYear() + "\
+	A_G\ &#169; 2016 - " + today.getFullYear() + "\
 	";
 /* Footer Ends */
 
@@ -236,6 +238,53 @@ document.getElementById("header_area_id").innerHTML +=  "\
 		includeHTML();
 		}
 /* loadTeachingCourse Ends */
+
+/* Fullscreen functionality Begins */
+    /* Get into fullscreen */
+    function GoInFullscreen(element) {
+        if(element.requestFullscreen)
+            element.requestFullscreen();
+        else if(element.mozRequestFullScreen)
+            element.mozRequestFullScreen();
+        else if(element.webkitRequestFullscreen)
+            element.webkitRequestFullscreen();
+        else if(element.msRequestFullscreen)
+            element.msRequestFullscreen();
+    }
+
+    /* Get out of fullscreen */
+    function GoOutFullscreen() {
+        if(document.exitFullscreen)
+            document.exitFullscreen();
+        else if(document.mozCancelFullScreen)
+            document.mozCancelFullScreen();
+        else if(document.webkitExitFullscreen)
+            document.webkitExitFullscreen();
+        else if(document.msExitFullscreen)
+            document.msExitFullscreen();
+    }
+
+    /* Is currently in fullscreen or not */
+    function IsFullScreenCurrently() {
+        var full_screen_element = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement || null;
+        // If no element is in full-screen
+        if(full_screen_element === null)
+            return false;
+        else
+            return true;
+    }
+
+    function fullScreenfunction(element) {
+        if(IsFullScreenCurrently()) {
+            GoOutFullscreen();
+        	document.getElementById("fullscreenbtn").childNodes[0].classList = "fas fa-expand";
+        }
+        else {
+            GoInFullscreen(document.getElementById(element));
+            document.getElementById("fullscreenbtn").childNodes[0].classList = "fas fa-compress";
+        }
+    }
+/* Fullscreen functionality Ends */
 
 /* ResponsiveMenu Begins */
 	var x = document.getElementById("menu_bar_div");
