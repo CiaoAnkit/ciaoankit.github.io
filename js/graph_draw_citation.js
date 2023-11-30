@@ -8,7 +8,7 @@ google.charts.setOnLoadCallback(drawMultSeries);
 
 function get_json() {
 //return $.getJSON('./files/citations_report.json');
-return $.getJSON('https://api.allorigins.win/raw?&url=https://www.math.unipd.it/~gangwal/citations_report.json');
+return $.getJSON('https://api.allorigins.win/raw?&url=https://faculty.iiit.ac.in/~gangwal/citations_report.json');
 
 }
 
