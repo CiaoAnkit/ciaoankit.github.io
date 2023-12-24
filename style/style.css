@@ -433,23 +433,12 @@ ul.list_collapsable li {
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
-  /*flex-direction: row;
-  justify-content: center;
-  padding: 0px 0px;   /* Change this value to adjust gaps between items */
+  /* padding: 0px 0px;   /* Change this value to adjust gaps between items */
 }
 
 .media > div
 {
-  /*flex: 0 0 auto;
-  text-align: center;*/
   margin: 5px auto;
-  /*
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  */
 }
 
 .media_thumbnail{
@@ -1181,69 +1170,6 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   to {background-position: 200% center;}
 }
 
-/*
-  / Progress bar /
-  progress {
-    / Positioning /
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99;
-
-    / Dimensions /
-    width: 100%;
-    height: .25em;
-
-    / Reset the apperance /  
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-
-    / Get rid of the default border in Firefox/Opera. /
-    border: none;
-
-    / For Firefox/IE10+ /
-    background-color: transparent;
-
-    / For IE10+, color of the progress bar /
-    color: #780000;
-  }
-
-  progress::-webkit-progress-bar {
-    background-color: transparent;
-  }
-
-  .flat::-webkit-progress-value {
-    background: linear-gradient(to right, #780000, #780000); / #808080, #2C3E50 /
-  }
-
-  .flat::-moz-progress-bar {
-    background: linear-gradient(to right, #780000, #780000);
-  }
-
-  .single::-webkit-progress-value, .single::-moz-progress-bar {
-    background-color: transparent;
-    background: linear-gradient(to right, #780000, #780000);
-  }
-
-  .progress-container {
-    width: 100%;
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: .25em;
-    display: block;
-  }
-
-  .progress-bar {
-    background: linear-gradient(to right, #780000, #780000);
-    width: 50%;
-    display: block;
-    height: inherit;
-  }
-*/
-
 /* Disable blue flash on user touch ONLY for Menu Bar */
 #menu_bar_div {
  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1314,9 +1240,16 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
 @media screen and (max-width: 520px) {
   /* Make media icons align vertically in smaller screen */
+  .media_thumbnail{
+    height: 35px;
+    margin: 1px 5px;
+  }
+
   .media {
-      flex-direction: column;
-  }    
+    flex-direction: inherit;
+    margin: 10px;
+  }
+
   .media > div {
   /*flex: 0 0 auto;
   text-align: center;*/
