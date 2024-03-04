@@ -54,15 +54,6 @@
 							<th>&nbsp;</th>
 						</tr>
 					</table>
-
-					    <!--
-					    <p style="text-align:right; font-size: 60%">
-					    	<span style="text-align:right; font-size: 225%">
-					    		<sub>*</sub>
-					    	</span>Corresponding author
-					    </p>
-
-						-->
 						<center>
 							<div id="citations_chart_area">
 								<div id = "graph_button_prev"><button id="prevbtn"><font color="#fff"><i class="fas fa-arrow-left"></i></font></button></div>
@@ -74,13 +65,6 @@
 
 						<br>
 
-						<!--
-						<center>
-					    <h5>
-					    </h5>
-					    </center>
-						-->
-
 						<font size=-1>
 							<p id="pubs_para">
 								[&#x2733;&#xFE0E; = Corresponding author]
@@ -90,8 +74,8 @@
 
 							<p id="pubs_para">
 								[Quick links:&nbsp; &nbsp; 
-								<a class="blue" href="#preprints">Preprints</a>
-								&nbsp;&nbsp;&nbsp;
+								<!--<a class="blue" href="#preprints">Preprints</a>
+								&nbsp;&nbsp;&nbsp;-->
 								<a class="blue" href="#journals">Journal papers</a>
 								&nbsp;&nbsp;&nbsp;
 								<a class="blue" href="#conferences">Conference & Workshop papers</a>
@@ -131,29 +115,7 @@
 					<h3 id="preprints">Preprints</h3>
 						<ul class="publications">
 							<li style="margin-left: 31px;">
-								[P1] <u>Ankit Gangwal</u><sup>&#x2733;&#xFE0E;</sup>.
-								<br>Title.
-								<br>[<a onclick="toggle_cite('P1')" class="blue">BibTeX</a>] [<a target="_blank" href="https://arxiv.org/abs/2210.00000" class="blue">arXiv Preprint</a>]
-								<div class="BibTeX_hidden" id="P1">
-									<pre>
-										<code>
-											@article{gangwal2022XYZ,
-											  title={TiTlE},
-											  author={Gangwal, Ankit and},
-											  journal={arXiv preprint arXiv:2210.00000},
-											  year={202X}
-											}
-										</code>
-									</pre>
-								</div>
-							</li>
-						</ul>
-					-->
-
-					<h3 id="preprints">Preprints</h3>
-						<ul class="publications">
-							<li style="margin-left: 31px;">
-								[P1] <u>Ankit Gangwal</u>, Aashish Paliwal, Mauro Conti.
+								[P1] <u>Ankit Gangwal</u>, Aashish Paliwal, Mauro Conti<sup>&#x2733;&#xFE0E;</sup>.
 								<br>De-authentication using Ambient Light Sensor.
 								<br>[<a onclick="toggle_cite('P1')" class="blue">BibTeX</a>] [<a target="_blank" href="https://arxiv.org/abs/2309.12220" class="blue">arXiv Preprint</a>]
 								<div class="BibTeX_hidden" id="P1">
@@ -170,10 +132,37 @@
 								</div>
 							</li>
 						</ul>
+					-->
+
 
 					<!-- <u class="in_press">in press</u> -->
 					<h3 id="journals">Journal papers</h3>
 						<ul class="publications">
+							<li style="margin-left: 31px;">
+								[J5] <u>Ankit Gangwal</u>, Aashish Paliwal, Mauro Conti<sup>&#x2733;&#xFE0E;</sup>.
+								<br>De-authentication using Ambient Light Sensor.
+								<br>In <i><b>(IEEE) Access</b></i>, 12: 28225-28234, 2024.
+								<br><b class="rate">(JCR IF 2022: 3.9)</b>
+								<br>[<a onclick="toggle_cite('J5')" class="blue">BibTeX</a>] [<a target="_blank" href="https://doi.org/10.1109/ACCESS.2024.3367607" class="blue">DOI</a>]
+								<div class="BibTeX_hidden" id="J5">
+									<pre>
+										<code>
+											@article{gangwal2024authentication,
+											  title={De-Authentication Using Ambient Light Sensor},
+											  author={Gangwal, Ankit and Paliwal, Aashish and Conti, Mauro},
+											  journal={IEEE Access},
+											  volume={12},
+											  pages={28225--28234},
+											  year={2024},
+											  publisher={IEEE}
+											}
+										</code>
+									</pre>
+								</div>
+							</li>
+
+							<br>
+
 							<li style="margin-left: 31px;">
 								[J4] <u>Ankit Gangwal</u><sup>&#x2733;&#xFE0E;</sup>, Haripriya Ravali Gangavalli, Apoorva Thirupathi.
 								<br>A Survey of Layer-Two Blockchain Protocols.
@@ -283,23 +272,21 @@
 								[C16] <u>Ankit Gangwal</u>, Apoorva Thirupathi, Alessandro Brighente, Mauro Conti.
 								<br>A First Look at Shill Looping in NFT Ecosystem.
 								<br>In <i>Proceedings of the 15th IEEE International Workshop on Information Forensics and Security
-								<br><b>(IEEE WIFS 2023)</b></i>, <u class="in_press">in press</u>, Nuremberg, Germany, December 4-7, 2023.
-								<!--
-								<br>[<a onclick="toggle_cite('C16')" class="blue">BibTeX</a>] [<a target="_blank" href="https://dx.doi.org/" class="blue">DOI</a>]
+								<br><b>(IEEE WIFS 2023)</b></i>, pages 1-6, Nuremberg, Germany, December 4-7, 2023.
+								<br>[<a onclick="toggle_cite('C16')" class="blue">BibTeX</a>] [<a target="_blank" href="https://dx.doi.org/10.1109/WIFS58808.2023.10374954" class="blue">DOI</a>]
 								<div class="BibTeX_hidden" id="C16">
 									<pre>
 										<code>
-											@inproceedings{gangwal2023feasibility,
-											  title={On the Feasibility of Profiling Electric Vehicles through Charging Data},
-											  author={Gangwal, Ankit and Jain, Aakash and Conti, Mauro},
-											  booktitle={Proceedings of the Inaugural Symposium on Vehicle Security and Privacy (NDSS 2023 workshop: VehicleSec 2023)},
-											  pages={1--8},
+											@inproceedings{gangwal2023first,
+											  title={A First Look at Shill Looping in NFT Ecosystem},
+											  author={Gangwal, Ankit and Thirupathi, Apoorva and Brighente, Alessandro and Conti, Mauro},
+											  booktitle={Proceedings of the 15th IEEE International Workshop on Information Forensics and Security},
+											  pages={1--6},
 											  year={2023}
 											}
 										</code>
 									</pre>
 								</div>
-								-->
 							</li>
 
 							<br>
@@ -342,6 +329,7 @@
 								<a target="_blank" href="https://www.darkreading.com/cyberattacks-data-breaches/android-vulnerability-leaks-credentials-from-password-managers-" class="blue">Dark Reading</a>, 
 								<a target="_blank" href="https://www.europapress.es/portaltic/ciberseguridad/noticia-identifican-gestores-contrasenas-falla-autospill-expone-credenciales-guardadas-moviles-android-20231207160256.html" class="blue">Europa Press</a>, 
 								<a target="_blank" href="https://www.forbes.com/sites/daveywinder/2023/12/11/android-warning-1password-dashlane-lastpass-and-others-can-leak-passwords/" class="blue">Forbes</a>, 
+								<a target="_blank" href="https://www.inforisktoday.com/flaws-in-mobile-password-manager-auto-fill-to-autospill-a-23883" class="blue"> iSMG</a>, 
 								<a target="_blank" href="https://techcrunch.com/2023/12/06/your-mobile-password-manager-might-be-exposing-your-credentials/" class="blue">TechCrunch</a>, 
 								<a target="_blank" href="https://timesofindia.indiatimes.com/home/science/your-password-manager-may-be-inadvertently-spilling-your-credentials-warn-iiith-researchers/articleshow/104504534.cms" class="blue">The Times of India</a>, and <a href="./media.html" class="blue">more</a>]
 								<div class="BibTeX_hidden" id="C14">
