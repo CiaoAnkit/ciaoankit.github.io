@@ -1,4 +1,4 @@
-html {
+html{
   min-height: 100%;
   background: linear-gradient(#808080, #2C3E50) fixed;
   /*font-family: lato, sans-serif;*/
@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body{
   height: 100%; 
   margin: 0;
   font-size: 14px;
@@ -29,13 +29,13 @@ body {
   border-width: thin;
 }
 
-#content {
+#content{
   clear: left;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.logo {
+.logo{
   padding-left: 10px;
   padding-top: 10px;
   text-align: center;
@@ -48,12 +48,12 @@ body {
   margin: 5px auto;
 }
 
-.header {
-    z-index:99;
-    position:relative;
+.header{
+  z-index:99;
+  position:relative;
 }
 
-.header ul {
+.header ul{
   display: flex;
   border-radius: 5px;
   list-style-type: none;
@@ -64,22 +64,22 @@ body {
   /*display: flex;*/
 }
 
-.header li {
+.header li{
   /**/
 /* background-color: #0000FF; *//* display:inline; *//* margin: 0; *//* vertical-align: middle; */}
 
-.header li a {
+.header li a{
   padding: 8px;
   color: #FFFFFF;
   text-decoration: none;
   border-radius: 5px 5px 5px 5px;
 }
 
-.header li a:hover {
+.header li a:hover{
     background-color: #400000;
 }
 
-.header .active {
+.header .active{
   background-color: #400000;
 }
 
@@ -93,7 +93,7 @@ body {
   margin-top: 1px;
 }
 
-.page {
+.page{
   margin: 30px;
   margin-top: 0px;
   margin-bottom: 15px;
@@ -106,32 +106,32 @@ body {
 }
 
 /* Define keyframes fadeInAnimation */
-@-webkit-keyframes fadeInAnimation { 
-  0% {opacity: 0;} 
-  100% {opacity: 1;} 
+@-webkit-keyframes fadeInAnimation{ 
+  0%{opacity: 0;} 
+  100%{opacity: 1;} 
 }
 
-@-moz-keyframes fadeInAnimation { 
-  0% {opacity: 0;} 
-  100% {opacity: 1;}
+@-moz-keyframes fadeInAnimation{ 
+  0%{opacity: 0;} 
+  100%{opacity: 1;}
 }
 
-@-ms-keyframes fadeInAnimation { 
-  0% {opacity: 0;} 
-  100% {opacity: 1;}
+@-ms-keyframes fadeInAnimation{ 
+  0%{opacity: 0;} 
+  100%{opacity: 1;}
 }
 
-@-o-keyframes fadeInAnimation { 
-  0% {opacity: 0;} 
-  100% {opacity: 1;}
+@-o-keyframes fadeInAnimation{ 
+  0%{opacity: 0;} 
+  100%{opacity: 1;}
 }
 
-@keyframes fadeInAnimation { 
-  0% {opacity: 0;} 
-  100% {opacity: 1;}
+@keyframes fadeInAnimation{ 
+  0%{opacity: 0;} 
+  100%{opacity: 1;}
 }
 
-#image {
+#image{
   float: left;
   margin-right: 30px;
   margin-top: 35px;
@@ -198,8 +198,8 @@ img.email:hover{
   border-width: thin;
 }
 
-table, tbody {
-    width: 100%;
+table, tbody{
+  width: 100%;
 }
 
 #th_announcements{
@@ -211,10 +211,10 @@ table, tbody {
 }
 
 #th_announcements .colorful_flashing_text_module_div{
-    height: 238px;
+  height: 238px;
 }
 
-td {
+td{
   vertical-align:top;
 }
 
@@ -229,7 +229,7 @@ td.leftvcenter{
   font-size: 14px;
 }
 
-ol { 
+ol{ 
   text-align: justify; 
   padding-bottom: 20px;
 }
@@ -238,11 +238,11 @@ ol {
   font-size: 14px;
 }
 
-.bibtexitem {
+.bibtexitem{
   text-align: justify;
 }
 
-#footer {
+#footer{
   text-align: center;
   padding-bottom: 20px;
   font-size: 14px;
@@ -250,7 +250,7 @@ ol {
   margin: auto;
 }
 
-.publications {
+.publications{
   font-size: 14px;
   background-color: #fff;
 }
@@ -269,12 +269,12 @@ u.in_press{
 	text-decoration-style: dashed;
 }
 
-.rate {
+.rate{
   color: #008018;
 }
 
 /* Code Formating */
-pre {
+pre{
   border-radius: 10px 10px 10px 10px;
   border: 1px solid #ddd;
   border-left: 3px solid #780000;
@@ -300,27 +300,27 @@ pre {
   transition: max-height .5s ease-in-out;
 }
 
-a:link {
+a:link{
   color: #000000; /* For the text in typewriter.js */
   text-decoration: none;
 }
 
 /*
-    a:visited {
+    a:visited{
       color: #000000
     }
 
-    a:hover {
+    a:hover{
       color: #0000FF;
     }
 
-    a:active {
+    a:active{
       color: #000000;
     }
 */
 
 /* Make links blue and animate on hover */
-a.blue {
+a.blue{
   color: #0000FF;
   position: relative;
   width: calc(100%);
@@ -335,7 +335,7 @@ a.blue {
   transition: background-size .5s;
 }
 
-a.blue:hover {
+a.blue:hover{
   background-size: 100% 100%;
 }
 
@@ -386,10 +386,10 @@ ul li ul.dropdown li{
 }
 
 /* Checkbox list - Homepage Collapsable*/
-.checkbox {
+.checkbox{
   display: none;
 }
-.checkbox + label:before {
+.checkbox + label:before{
   font-family: "Font Awesome 5 Free";
   content: "\f055";
   display: inline-block; 
@@ -397,14 +397,14 @@ ul li ul.dropdown li{
   cursor: pointer;
 }
 
-.checkbox:checked + label:before {
+.checkbox:checked + label:before{
   font-family: "Font Awesome 5 Free";
   content: "\f056";
   display: inline-block; 
   font-weight: 900;
 }
 
-.checkbox + label + ul {
+.checkbox + label + ul{
   /*display: none;*/
   overflow: hidden;
   max-height: 0px;
@@ -415,7 +415,7 @@ ul li ul.dropdown li{
   transition: max-height .5s ease-in-out;
 }
 
-.checkbox:checked + label + ul {
+.checkbox:checked + label + ul{
   /*display: block;*/
   max-height: 999px; /* CHANGE THIS VALUE ACCORDING TO THE CONTENT */
 }
@@ -424,7 +424,7 @@ ul.list_collapsable{
   background-color: inherit;
 }
 
-ul.list_collapsable li {
+ul.list_collapsable li{
   margin-left: 25px;
 }
 
@@ -462,12 +462,12 @@ ul.list_collapsable li {
 }
 
 /* Tooltip */
-.tooltip {
+.tooltip{
   position: relative;
   display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.tooltip .tooltiptext{
   visibility: hidden;
   width: 50%;
   background-color: #000000;
@@ -492,7 +492,7 @@ ul.list_collapsable li {
   transform: translate3d(-18px,0,0);
 }
 
-.tooltip .tooltiptext::after {
+.tooltip .tooltiptext::after{
   content: "";
   position: absolute;
   top: 50%;
@@ -503,7 +503,7 @@ ul.list_collapsable li {
   border-color: transparent #000000 transparent transparent;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext{
   visibility: visible;  
   -webkit-transform: translate3d(-7px,0,0);
   -moz-transform: translate3d(-7px,0,0);
@@ -522,11 +522,11 @@ ul.list_collapsable li {
   left: 0;
   background-color: rgba(0,0,0, 0.9);
   overflow: hidden;
-  -webkit-animation: fadeInAnimation ease .25s 1 forwards;
-  -moz-animation: fadeInAnimation ease .25s 1 forwards;
-  -ms-animation: fadeInAnimation ease .25s 1 forwards;
-  -o-animation: fadeInAnimation ease .25s 1 forwards;
-  animation: fadeInAnimation ease .25s 1 forwards;
+  -webkit-animation: fadeInAnimation ease .5s 1 forwards;
+  -moz-animation: fadeInAnimation ease .5s 1 forwards;
+  -ms-animation: fadeInAnimation ease .5s 1 forwards;
+  -o-animation: fadeInAnimation ease .5s 1 forwards;
+  animation: fadeInAnimation ease .5s 1 forwards;
   z-index: 11;
 }
 
@@ -571,17 +571,17 @@ ul.list_collapsable li {
 }
 
 /* Hide scrollbar */
-#teachingContainer::-webkit-scrollbar {
+#teachingContainer::-webkit-scrollbar{
   display: none;
 }
 /* Hide scrollbar for IE, Edge and Firefox */
-#teachingContainer {
+#teachingContainer{
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
 
 /*  Data-Title */
-[data-title]:hover:after {
+[data-title]:hover:after{
   opacity: 1;
   visibility: visible;
   -webkit-transition: all 0.3s ease-in-out;
@@ -591,7 +591,7 @@ ul.list_collapsable li {
   transition: all 0.3s ease-in-out;
 }
 
-[data-title]:after {
+[data-title]:after{
   content: attr(data-title);
   position: absolute;
   font-family: monospace;
@@ -613,19 +613,19 @@ ul.list_collapsable li {
   transition: all 0.3s ease-in-out;
 }
 
-[data-title] {
+[data-title]{
   position: relative;
   z-index: 11;
 }
 
 /*  Telephone */
-a[href^="tel:"] { /* , a[href*="maps.xyz.com"] */
+a[href^="tel:"]{ /* , a[href*="maps.xyz.com"] */
   color: inherit;
   text-decoration: none;
 }
 
 /* Font awesome */
-i.fab, i.fas {
+i.fab, i.fas{
   display: inline-block;
   border-radius: 20px;
   color: #FFF;
@@ -642,7 +642,7 @@ i.fab, i.fas {
   transition: transform 0.3s ease-in-out;
 }
 
-.fab:hover, .fab:active, .fas:hover, .fas:active { 
+.fab:hover, .fab:active, .fas:hover, .fas:active{ 
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
@@ -650,32 +650,32 @@ i.fab, i.fas {
   transform: scale(1.3); 
 }
 
-.fa-facebook-f, .fa-facebook-f:hover { 
+.fa-facebook-f, .fa-facebook-f:hover{ 
   background-color: #3b5998; 
 }
-.fa-github, .fa-github:hover { 
+.fa-github, .fa-github:hover{ 
   background-color: #000000; 
 }
-.fa-linkedin-in, .fa-linkedin-in:hover { 
+.fa-linkedin-in, .fa-linkedin-in:hover{ 
   background-color: #007bb6; 
 }
-.fa-envelope, .fa-envelope:hover { 
+.fa-envelope, .fa-envelope:hover{ 
   background-color: #EA4335; 
 }
-.fa-skype, .fa-skype:hover { 
+.fa-skype, .fa-skype:hover{ 
   background-color: #00AFF0; 
 }
 .fa-twitter, .fa-twitter:hover{ 
   background-color: #1DCAFF; 
 }
-.fa-key, .fa-key:hover { 
+.fa-key, .fa-key:hover{ 
   background-color: #660033; 
 }
 .fa-globe, .fa-globe:hover{ 
   background-color: #3b67e7; 
 }
 
-i.fa-home {
+i.fa-home{
   display: inline-block;
   color: #FFF;
   /*height: 0px;*/
@@ -691,7 +691,7 @@ i.fa-home {
   transform: scale(1.0); 
 }
 
-i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-expand, i.fa-compress {
+i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-expand, i.fa-compress{
   display: inline-block;
   color: #FFF;
   height: 23px;
@@ -805,7 +805,7 @@ i.fa-file-pdf{
 .fa-expand:hover, .fa-expand:active,
 .fa-compress:hover, .fa-compress:active,
 .fa-moon:hover, .fa-moon:active, 
-.fa-sun:hover, .fa-sun:active {
+.fa-sun:hover, .fa-sun:active{
   -webkit-transform: scale(1.0);
   -moz-transform: scale(1.0);
   -ms-transform: scale(1.0);
@@ -817,7 +817,7 @@ i.fa-at, i.fa-at:hover, i.fa-at:active,
 i.fa-phone, i.fa-phone:hover, i.fa-phone:active,
 i.fa-fax, i.fa-fax:hover, i.fa-fax:active,
 i.fa-user-friends, i.fa-user-friends:hover, i.fa-user-friends:active,
-i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
+i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active{
   border-radius: 0px;
   color: #000;
   background-color: #fff;
@@ -837,7 +837,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Notifications */
-.notice-wrap {
+.notice-wrap{
   position: fixed;
   top: 1.0%;
   right: 1.05%;
@@ -845,11 +845,11 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   z-index: 99;
 }
 
-* html .notice-wrap {
+* html .notice-wrap{
   position: relative;   
 }
  
-.notice-item {
+.notice-item{
   background: #000;
   border-radius: 8px;
   color: #fff;
@@ -861,7 +861,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   text-align: justify;
 }
 
-.notice-item-close {
+.notice-item-close{
   position: absolute;
   font-family: lato, sans-serif;
   font-weight: bold;
@@ -881,7 +881,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Back to top button */
-#topbtn {
+#topbtn{
   display: none;
   position: fixed;
   width: 40px;
@@ -905,7 +905,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Dark mode button */
-#darkmodebtn {
+#darkmodebtn{
   display: none;
   position: fixed;
   width: 40px;
@@ -930,13 +930,13 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
 /*Hide button on Firefox*/
 /*
-@-moz-document url-prefix('') {
+@-moz-document url-prefix(''){
   #darkmodebtn{visibility: hidden;}
 }
 */
 
 /* Fullscreen mode button */
-#fullscreenbtn {
+#fullscreenbtn{
   display: block;
   position: fixed;
   width: 40px;
@@ -980,7 +980,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   margin-top:1%;
 }
 
-#nextbtn, #prevbtn {
+#nextbtn, #prevbtn{
   display: inline-block;
   position: static;
   width: 25px;
@@ -1005,7 +1005,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 #darkmodebtn:hover, #darkmodebtn:active, 
 #fullscreenbtn:hover, #fullscreenbtn:active, 
 #nextbtn:hover, #nextbtn:active, 
-#prevbtn:hover, #prevbtn:active { 
+#prevbtn:hover, #prevbtn:active{ 
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
@@ -1032,19 +1032,19 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Scrollbar */
-::-webkit-scrollbar {
+::-webkit-scrollbar{
   width: 12px;
 }
  
 /* Track */
-::-webkit-scrollbar-track {
+::-webkit-scrollbar-track{
   border-radius: 10px;
   background-color:#CCCCCC; 
   box-shadow: inset 0 0 6px rgba(0,0,0,0.6); 
 }
  
 /* Thumb */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
   border-radius: 10px;
   box-shadow: inset 0 0 1px #000000;
   background: linear-gradient(#808080, #2C3E50);
@@ -1056,7 +1056,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* No javascript */
-.centered_div {
+.centered_div{
   position: fixed;
   left: 50%;
   top: 50%;
@@ -1068,7 +1068,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   z-index: 99;
 }
 
-.nojs {
+.nojs{
   position: relative;
   display: block;
   width: 55%;
@@ -1081,7 +1081,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   font-family: lato, sans-serif;
 }
 
-#disclaimer_div {
+#disclaimer_div{
   background: #000;
   color: #FFF;
   padding: 15px;
@@ -1092,7 +1092,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Fliptext */
-.splitflap {
+.splitflap{
   -webkit-perspective-origin: top center;
   -moz-perspective-origin: top center;
   -ms-perspective-origin: top center;
@@ -1104,7 +1104,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   perspective: 900px;
 }
 
-.center_clock {
+.center_clock{
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1116,7 +1116,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Colorful flashing text */
-.colorful_flashing_text_wrap_div {
+.colorful_flashing_text_wrap_div{
   display: inline-block;
   background: linear-gradient(to right, #FF0000, #0000FF);
   max-width: fit-content;
@@ -1124,14 +1124,14 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   border-radius: 5px 5px 5px 5px;
 }
 
-.colorful_flashing_text_module_div {
+.colorful_flashing_text_module_div{
   background: #FFFFFF;
   color: #000000;
   padding: 2px;
   border-radius: 5px 5px 5px 5px;
 }
 
-.colorful_flashing_text {
+.colorful_flashing_text{
   /*text-transform: uppercase;*/
   background: linear-gradient(to right, #FFD700 0%, #FF7700 40%, #CF0020 80%);
   background-size: 200% auto;
@@ -1150,35 +1150,35 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* Define keyframes colorfulFlashingText */
-@-webkit-keyframes colorfulFlashingText { 
-  to {background-position: 200% center;}
+@-webkit-keyframes colorfulFlashingText{ 
+  to{background-position: 200% center;}
 }
 
-@-moz-keyframes colorfulFlashingText { 
-  to {background-position: 200% center;}
+@-moz-keyframes colorfulFlashingText{ 
+  to{background-position: 200% center;}
 }
 
-@-ms-keyframes colorfulFlashingText { 
-  to {background-position: 200% center;}
+@-ms-keyframes colorfulFlashingText{ 
+  to{background-position: 200% center;}
 }
 
-@-o-keyframes colorfulFlashingText { 
-  to {background-position: 200% center;}
+@-o-keyframes colorfulFlashingText{ 
+  to{background-position: 200% center;}
 }
 
-@keyframes colorfulFlashingText { 
-  to {background-position: 200% center;}
+@keyframes colorfulFlashingText{ 
+  to{background-position: 200% center;}
 }
 
 /* Disable blue flash on user touch ONLY for Menu Bar */
-#menu_bar_div {
+#menu_bar_div{
  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
  -webkit-tap-highlight-color: transparent;
  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
  -moz-tap-highlight-color: transparent;
 }
 
-#cv_object_text {
+#cv_object_text{
   color: #000000;
 }
 
@@ -1196,11 +1196,11 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
 /* Color of text selection */
 /*
-::selection {
+::selection{
   color: red;
   background: #808080;
 }
-::-moz-selection {
+::-moz-selection{
   color: red;
   background: #808080;
 }
@@ -1210,21 +1210,21 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
 
 /* Media queries */
-@media screen and (max-width: 1499px) {
+@media screen and (max-width: 1499px){
   /* Don't show it on small screens */
-  .notice-wrap {
+  .notice-wrap{
       display: none;
   }
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 915px){
   /* Don't show QR code on small screens */
-  img.round1 {
+  img.round1{
       display: none;
   }    
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
   /* Adjust announcement section for small screens */
   #th_announcements{
     margin-left: unset;
@@ -1238,28 +1238,28 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px){
   /* Make media icons align vertically in smaller screen */
   .media_thumbnail{
     height: 35px;
     margin: 1px 5px;
   }
 
-  .media {
+  .media{
     flex-direction: inherit;
     margin: 10px;
   }
 
-  .media > div {
+  .media > div{
   /*flex: 0 0 auto;
   text-align: center;*/
   margin: 5px 0px;
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px){
   /* Make image smaller on small screens */
-  img.round {
+  img.round{
     height: 111px;
     width: 111px;
     object-fit: cover;
@@ -1269,9 +1269,9 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
     padding: 1px;
   }
 }
-  @media screen and (min-width: 521px) and (max-width: 690px) {
+  @media screen and (min-width: 601px) and (max-width: 690px){
   /* Make image slightly bigger for slightly bigger screens */
-  img.round {
+  img.round{
     height: 125px;
     width: 125px;
     object-fit: cover;
@@ -1282,9 +1282,9 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 690px){
   /* Make index_info name & title adjust */
-  table.index_info_second_column {
+  table.index_info_second_column{
     margin-left: 0px;
     padding: 20px;
     font-size: 14px;
@@ -1310,14 +1310,14 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 520px){
   /* Make tooltip pop vertically small screens and pubs_para with line gap */
-  .tooltip {
+  .tooltip{
     position: relative;
     display: inline-block;
   }
 
-  .tooltip .tooltiptext {
+  .tooltip .tooltiptext{
     visibility: hidden;
     width: 50%;
     background-color: #000000;
@@ -1342,7 +1342,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
     transform: translate3d(0,0px,0);
   }
 
-  .tooltip .tooltiptext::after {
+  .tooltip .tooltiptext::after{
     content: "";
     position: absolute;
     top: 44%;
@@ -1359,7 +1359,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 
   }
 
-  .tooltip:hover .tooltiptext {
+  .tooltip:hover .tooltiptext{
     visibility: visible;  
     -webkit-transform: translate3d(0,-12px,0);
     -moz-transform: translate3d(0,-12px,0);
@@ -1368,7 +1368,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
     transform: translate3d(0,-12px,0);
   }
 
-  #pubs_para {
+  #pubs_para{
   display: inline-block;
   margin-bottom: 0px;
   }
@@ -1388,34 +1388,34 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 */
 
 /* Responsive menubar disappears after this */
-@media screen and (min-width: 521px) { /* 581px for CV [POS_1] */
-  li.menu_bar_li {
+@media screen and (min-width: 601px){ /* 521px for Pubs [POS_1] */
+  li.menu_bar_li{
     display: none;
   }
 
-  i.fa-home {
+  i.fa-home{
   height: 0px;
   }
 }
 
 /* Responsive menubar appears before this*/
-@media screen and (max-width: 520px) { /* 580px for CV [POS_2] */
+@media screen and (max-width: 600px){ /* 520px for Pubs [POS_2] */
   .header li:first-child{
     margin-top: 3px;
   }
 
-  .header li:not(:first-child) {
+  .header li:not(:first-child){
     display: none;
   }
  
-  .header li.menu_bar_li {
+  .header li.menu_bar_li{
     float: right;
     display: block;
     margin-left: auto;
     margin-top: 3px;
   }
   
-  .responsive li:nth-child(n+3) {
+  .responsive li:nth-child(n+3){
     padding: 6px;
     float: none;
     display: block;
@@ -1424,8 +1424,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
     margin-left: auto;
   }
   
-  .responsive ul
-  {
+  .responsive ul{
     display: block;
   }
 
@@ -1442,7 +1441,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
     margin-bottom: -18px;
   }
 
-  .responsive ul li ul.dropdown li {
+  .responsive ul li ul.dropdown li{
     margin: auto;
     padding: inherit;
   }
@@ -1459,7 +1458,7 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active {
 }
 
 /* CSS specific to iOS devices */
-@supports (-webkit-touch-callout: none) {
+@supports (-webkit-touch-callout: none){
   i.fa-arrow-up, i.fa-moon, i.fa-sun, i.fa-expand, i.fa-compress, i.fa-arrow-left, i.fa-arrow-right{
   margin: auto -4px;
   }

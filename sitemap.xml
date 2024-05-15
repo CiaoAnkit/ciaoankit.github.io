@@ -10,6 +10,11 @@
     <priority>1.00</priority>
   </url>
   <url>
+    <loc>https://ciaoankit.github.io/research.html</loc>
+    <lastmod>2024-03-31T09:25:09+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://ciaoankit.github.io/publications.html</loc>
     <lastmod>2023-10-25T05:20:09+00:00</lastmod>
     <priority>0.80</priority>
@@ -22,6 +27,11 @@
   <url>
     <loc>https://ciaoankit.github.io/analytics.html</loc>
     <lastmod>2023-10-25T05:18:20+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://ciaoankit.github.io/clock.html</loc>
+    <lastmod>2023-11-24T00:05:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
@@ -62,11 +72,6 @@
   <url>
     <loc>https://ciaoankit.github.io/404.html</loc>
     <lastmod>2023-10-25T05:07:30+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
-  <url>
-    <loc>https://ciaoankit.github.io/clock.html</loc>
-    <lastmod>2023-11-24T00:05:00+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>

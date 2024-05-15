@@ -41,10 +41,8 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	<ul class=\"headerUl\">\
 		<li id=\"index\"><a href=\"./index.html\"><i class=\"fas fa-home\"></i></a></li>\
 		<li class=\"menu_bar_li\"> <a href=\"javascript:void(0)\" onclick=\"ResponsiveMenuBar()\" id=\"menu_bar_link\"><i class=\"fas fa-bars\" id=\"menu_bar_icon\"></i></a></li>\
+		<li id=\"research\"><a href=\"./research.html\">Research</a></li>\
 		<li id=\"publications\"><a href=\"./publications.html\">Publications</a></li>\
-			\
-			<!--<li id=\"cv\"><a href=\"./cv.html\">Curriculum Vitae</a></li>-->\
-			\
 		<li id=\"teaching\"><a href=\"./teaching.html\">Teaching & Students</a></li>\
 		<li style=\"margin-left: auto;\" class=\"closed\" id=\"dropdown_li\"><a href=\"javascript:void(0)\" onclick=\"ToggleDropDown()\">Misc. Information<i class=\"fas fa-caret-down\" style=\"margin-left: -4px;\" id=\"dropdown_caret_icon\"></i></a>\
 			<ul class=\"dropdown\">\
@@ -83,7 +81,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "February 25, 2024";
+		update_date = "May 01, 2024";
 	}
 
 	if (footer_id == 2) {
@@ -237,9 +235,19 @@ document.getElementById("header_area_id").innerHTML +=  "\
 		teachingContainer.innerHTML += "<div w3-include-html=\""+pageID+"\"></div>";
 		includeHTML();
 		}
+
+		/* Close on clicking outside teachingContainer (i.e., anywhere in teachingOverlay)  */
+		/*
+		document.getElementById('teachingOverlay').addEventListener('click', (event) => {
+			if (!document.getElementById('teachingContainer').contains(event.target)) {
+				hideTeachingOverlay();
+			}
+		});
+		*/
+		
 /* loadTeachingCourse Ends */
 
-/* Fullscreen functionality Begins */
+/* Fullscreen Functionality Begins */
     /* Get into fullscreen */
     function GoInFullscreen(element) {
         if(element.requestFullscreen)
@@ -284,7 +292,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
             document.getElementById("fullscreenbtn").childNodes[0].classList = "fas fa-compress";
         }
     }
-/* Fullscreen functionality Ends */
+/* Fullscreen Functionality Ends */
 
 /* ResponsiveMenu Begins */
 	var x = document.getElementById("menu_bar_div");
@@ -332,7 +340,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	    }
 	  }
 	}
-	var b = window.matchMedia("(min-width: 520px)") /* 580px for CV [POS_3] */
+	var b = window.matchMedia("(min-width: 600px)") /* 520px for Pubs [POS_3] */
 	CloseResponsiveMenuBar(b) // Call listener function at run time
 	b.addListener(CloseResponsiveMenuBar) // Attach listener function on state changes
 

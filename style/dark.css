@@ -1,4 +1,4 @@
-html {
+html{
     background: linear-gradient(#001C26D2, #001C26) fixed; 
     /*
 	#1E2227d2, #1E2227
@@ -27,11 +27,11 @@ body{
   */
 }
 
-#analytics_table{
+#analytics_table, #fundingTable{
   color: white;
 } 
 
-.page, #footer, .index_info_second_column {
+.page, #footer, .index_info_second_column{
   color: #FFFFFF;
 }
 
@@ -39,7 +39,7 @@ body{
   background-color: #000000;
 }
 
-.tooltip .tooltiptext, [data-title]:after {
+.tooltip .tooltiptext, [data-title]:after{
   background-color: #FFFFFF;
   color: #000000;
 }
@@ -76,7 +76,7 @@ i.fa-arrow-left, i.fa-arrow-right{
   color: #FFFFFF;
 }
 
-.fa-github, .fa-github:hover { 
+.fa-github, .fa-github:hover{ 
   background-color: #FFFFFF; 
 }
 
@@ -85,7 +85,7 @@ i.fa-arrow-left, i.fa-arrow-right{
   background-color: #000000;
 }
 
-.colorful_flashing_text_module_div {
+.colorful_flashing_text_module_div{
   background: #000000;
   color: #FFFFFF;
 }
@@ -99,17 +99,21 @@ img:not(.round):not(.no_invert_img), object, .leftvcenter, #citations_chart_area
     filter: invert(100%) hue-rotate(180deg);
 }
 
+.no_invert_img:hover{
+  box-shadow: 0 5px 20px #AFC0D2;
+}
+
 a.blue{
   color: #00FF00;
   background-image: linear-gradient(transparent calc(100% - 10%), #00FF00 1px);
 }
 
-.rate {
+.rate{
   color : #26A4A4;
 }
 
 /* Track thumb in vertical */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
     background: linear-gradient(#001C26D2, #001C26);
 }
 
