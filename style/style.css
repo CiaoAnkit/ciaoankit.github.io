@@ -522,11 +522,11 @@ ul.list_collapsable li{
   left: 0;
   background-color: rgba(0,0,0, 0.9);
   overflow: hidden;
-  -webkit-animation: fadeInAnimation ease .5s 1 forwards;
-  -moz-animation: fadeInAnimation ease .5s 1 forwards;
-  -ms-animation: fadeInAnimation ease .5s 1 forwards;
-  -o-animation: fadeInAnimation ease .5s 1 forwards;
-  animation: fadeInAnimation ease .5s 1 forwards;
+  -webkit-animation: fadeInAnimation ease .35s 1 forwards;
+  -moz-animation: fadeInAnimation ease .35s 1 forwards;
+  -ms-animation: fadeInAnimation ease .35s 1 forwards;
+  -o-animation: fadeInAnimation ease .35s 1 forwards;
+  animation: fadeInAnimation ease .35s 1 forwards;
   z-index: 11;
 }
 

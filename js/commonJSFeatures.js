@@ -221,8 +221,10 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	
 	function loadTeachingCourse(pageID){
 		document.getElementById('teachingOverlay').style.display = 'block';
-		document.getElementById('menu_bar_div').style.display='none';
-		document.getElementById('footer').style.display='none';
+		document.getElementById('menu_bar_div').style.display = 'none';
+		document.getElementById('footer').style.display = 'none';
+		document.body.style.overflow = 'hidden';
+		document.getElementById('topbtn').style.visibility = 'hidden';
 
 		document.getElementById('teachingContainer').scrollTop = 0; // Reset teachingContainer's scroll position
 
@@ -231,6 +233,8 @@ document.getElementById("header_area_id").innerHTML +=  "\
 										document.getElementById('teachingOverlay').style.display = 'none';\
 										document.getElementById('menu_bar_div').style.display='block';\
 										document.getElementById('footer').style.display='block';\
+										document.body.style.overflow = 'visible';\
+										document.getElementById('topbtn').style.visibility = 'visible';\
 										};hideTeachingOverlay()\"><i class=\"fas fa-times-circle\" style=\"display:contents; font-size: 20px; color: #ff0000\"></i></button>";
 		teachingContainer.innerHTML += "<div w3-include-html=\""+pageID+"\"></div>";
 		includeHTML();
