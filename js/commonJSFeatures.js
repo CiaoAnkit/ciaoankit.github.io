@@ -81,7 +81,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "September 16, 2024";
+		update_date = "December 21, 2024";
 	}
 
 	if (footer_id == 2) {
