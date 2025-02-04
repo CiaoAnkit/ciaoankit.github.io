@@ -81,7 +81,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "January 01, 2025";
+		update_date = "February 01, 2025";
 	}
 
 	if (footer_id == 2) {

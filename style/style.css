@@ -651,13 +651,13 @@ i.fab, i.fas{
 }
 
 .fa-facebook-f, .fa-facebook-f:hover{ 
-  background-color: #3b5998; 
+  background-color: #3B5998; 
 }
 .fa-github, .fa-github:hover{ 
   background-color: #000000; 
 }
 .fa-linkedin-in, .fa-linkedin-in:hover{ 
-  background-color: #007bb6; 
+  background-color: #007BB6; 
 }
 .fa-envelope, .fa-envelope:hover{ 
   background-color: #EA4335; 
@@ -671,8 +671,11 @@ i.fab, i.fas{
 .fa-key, .fa-key:hover{ 
   background-color: #660033; 
 }
+.fa-telegram, .fa-telegram:hover{ 
+  background-color: #417FC6; 
+}
 .fa-globe, .fa-globe:hover{ 
-  background-color: #3b67e7; 
+  background-color: #3B67E7; 
 }
 
 i.fa-home{
