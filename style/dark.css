@@ -1,12 +1,12 @@
 html{
-    background: linear-gradient(#001C26D2, #001C26) fixed; 
-    /*
-	#1E2227d2, #1E2227
-    text-rendering: optimizeSpeed;
-    image-rendering: optimizeSpeed;
-    -webkit-font-smoothing: antialiased;
-    -webkit-image-rendering: optimizeSpeed;
-    */
+  background: linear-gradient(#001C26D2, #001C26) fixed; 
+  /*
+  #1E2227d2, #1E2227
+  text-rendering: optimizeSpeed;
+  image-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -webkit-image-rendering: optimizeSpeed;
+  */
 }
 
 body{

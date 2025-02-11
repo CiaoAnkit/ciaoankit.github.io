@@ -4,6 +4,7 @@ html{
   /*font-family: lato, sans-serif;*/
   text-align: justify;
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body{
@@ -36,16 +37,18 @@ body{
 }
 
 .logo{
-  padding-left: 10px;
-  padding-top: 10px;
+  padding-left: 0px;
+  padding-top: 5px;
   text-align: center;
 }
 
 .logo img{
   vertical-align: middle;
-  max-width: 23%;
-  min-width: 150px;
-  margin: 5px auto;
+  /*max-width: 20%;
+  min-width: 125px;*/
+  height: 75px;
+  object-fit: scale-down;
+  margin: 0px 5px;
 }
 
 .header{
@@ -1457,7 +1460,13 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active{
   .responsive i.fa-home{
     line-height: none;
   }
-  */  
+  */
+  #logo_cstar{
+    display: none;
+  }
+  .logo img{
+    height: 65px
+  }
 }
 
 /* CSS specific to iOS devices */

@@ -18,15 +18,11 @@
 
 /* Header Begins */
 document.getElementById("header_area_id").innerHTML +=  "\
-	<!--\
-		<div class=\"logo\">\
-		<a target=\"_blank\" href=\"http://www.unipd.it/en/\"><img src=\"./images/unipd_logo.png\" alt=\"UniPd\"></a> \
-		<a target=\"_blank\" href=\"http://spritz.math.unipd.it/index.html\"><img src=\"./images/spritz.png\" alt=\"SPRITZ\"></a> \
-		<a target=\"_blank\" href=\"http://hit.psy.unipd.it/phd-bmcs\"><img src=\"./images/hit.png\" alt=\"HIT\"></a> \
-		<a target=\"_blank\" href=\"http://www.math.unipd.it/en/\"><img src=\"./images/dm.png\" alt=\"DM\"></a>\
-		</div>\
-	-->\
-	\
+	<div class=\"logo\">\
+	<a id=\"logo_iiit\" target=\"_blank\" href=\"https://www.iiit.ac.in/\"><img src=\"./images/iiit.png\" alt=\"IIITH\"></a> \
+	<a id=\"logo_sypy\" target=\"_blank\" href=\"https://sypy.iiit.ac.in/\"><img src=\"./images/SyPyRG.svg\" alt=\"SyPy\"></a> \
+	<a id=\"logo_cstar\" target=\"_blank\" href=\"https://cstar.iiit.ac.in/\"><img src=\"./images/cstar.png\" alt=\"CSTAR\"></a> \
+	</div>\
 	\
 	<center><!--<br><br>\
 		<div style=\"font-size: +50; font-family: monospace; margin-left: 13px; margin-right: 13px;\">\
@@ -81,7 +77,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "February 01, 2025";
+		update_date = "February 11, 2025";
 	}
 
 	if (footer_id == 2) {
