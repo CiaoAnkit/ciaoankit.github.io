@@ -1,5 +1,4 @@
 html{
-  background: linear-gradient(#001C26D2, #001C26) fixed; 
   /*
   #1E2227d2, #1E2227
   text-rendering: optimizeSpeed;
@@ -10,6 +9,7 @@ html{
 }
 
 body{
+  background: linear-gradient(#001C26D2, #001C26) fixed; 
 }
 
 #container{

@@ -1,17 +1,16 @@
 html{
-  min-height: 100%;
-  background: linear-gradient(#808080, #2C3E50) fixed;
-  /*font-family: lato, sans-serif;*/
-  text-align: justify;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
 }
 
 body{
-  height: 100%; 
-  margin: 0;
   font-size: 14px;
+  background: linear-gradient(#808080, #2C3E50) fixed;
   font-family: lato, sans-serif;
+  text-align: justify;
+  min-height: 100%;
+  margin: 0px auto;
+  text-rendering: optimizeLegibility;
 }
 
 #container
