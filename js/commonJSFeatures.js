@@ -77,7 +77,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "May 27, 2025";
+		update_date = "June 23, 2025";
 	}
 
 	if (footer_id == 2) {
