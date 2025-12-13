@@ -37,7 +37,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	<ul class=\"headerUl\">\
 		<li id=\"index\"><a href=\"./index.html\"><i class=\"fas fa-home\"></i></a></li>\
 		<li class=\"menu_bar_li\"> <a href=\"javascript:void(0)\" onclick=\"ResponsiveMenuBar()\" id=\"menu_bar_link\"><i class=\"fas fa-bars\" id=\"menu_bar_icon\"></i></a></li>\
-		<li id=\"research\"><a href=\"./research.html\">Research</a></li>\
+		<!--<li id=\"research\"><a href=\"./research.html\">Research</a></li>-->\
 		<li id=\"publications\"><a href=\"./publications.html\">Publications</a></li>\
 		<li id=\"teaching\"><a href=\"./teaching.html\">Teaching & Students</a></li>\
 		<li style=\"margin-left: auto;\" class=\"closed\" id=\"dropdown_li\"><a href=\"javascript:void(0)\" onclick=\"ToggleDropDown()\">Misc. Information<i class=\"fas fa-caret-down\" style=\"margin-left: -4px;\" id=\"dropdown_caret_icon\"></i></a>\
