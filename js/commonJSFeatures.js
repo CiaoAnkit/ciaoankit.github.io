@@ -77,7 +77,7 @@ document.getElementById("header_area_id").innerHTML +=  "\
 	const today = new Date();
 
 	if (footer_id == 1) {
-		update_date = "March 01, 2026";
+		update_date = "April 01, 2026";
 	}
 
 	if (footer_id == 2) {
