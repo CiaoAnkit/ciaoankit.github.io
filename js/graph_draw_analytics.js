@@ -9,8 +9,7 @@ google.charts.setOnLoadCallback(drawRegionsMap);
 
 function get_json() {
 //return $.getJSON('./files/analytics_report.json');
-return $.getJSON('https://api.allorigins.win/raw?&url=https://faculty.iiit.ac.in/~gangwal/analytics_report.json');
-
+return $.getJSON('https://ciaoankit.github.io/publicFiles/analytics_report.json');
 }
 
 function drawRegionsMap() {
