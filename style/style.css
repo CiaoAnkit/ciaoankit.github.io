@@ -1460,9 +1460,10 @@ i.fa-map-marker-alt, i.fa-map-marker-alt:hover, i.fa-map-marker-alt:active{
     line-height: none;
   }
   */
-  #logo_cstar{
+  #logo_unipd{
     display: none;
   }
+
   .logo img{
     height: 65px
   }
